@@ -1,0 +1,21 @@
+node_modules/
+dist/
+functions/lib/
+tests/e2e/artifacts/
+
+# secrets and key material: never commit
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+*.local
+.secret.local
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+ui-debug.log
+
+.DS_Store

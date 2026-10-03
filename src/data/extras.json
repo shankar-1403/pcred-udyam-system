@@ -1,0 +1,3814 @@
+{
+  "checked": "1 Oct 2026",
+  "items": [
+    {
+      "id": "pmksy-cefppc",
+      "name": "Creation/Expansion of Food Processing & Preservation Capacities (Unit Scheme) – Pradhan Mantri Kisan SAMPADA Yojana",
+      "abbr": "PMKSY-CEFPPC",
+      "agency": "Ministry of Food Processing Industries (MoFPI)",
+      "cat": "Food processing",
+      "status": "closed 2025",
+      "statusNote": "No CEFPPC EoI is open on the MoFPI site as of Sep 2026. The last EoI (27.01.2025) was extended by a notice dated 28.03.2025 whose final date is unclear, and PMKSY itself was approved only to 31.03.2026 with no 2026-31 successor announced (Budget 2026-27 gives PMKSY ₹915 crore).",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "proprietorship",
+        "company",
+        "cooperative",
+        "FPO",
+        "SHG",
+        "NGO",
+        "PSU/JV"
+      ],
+      "headline": "35% grant (50% in NE/hilly/ITDP/island areas) up to ₹5 crore; no open call",
+      "gets": [
+        "Grant-in-aid of 35% of eligible project cost in general areas",
+        "50% in North-East states including Sikkim, Himalayan states (HP, J&K, Uttarakhand), notified ITDP areas and islands",
+        "Maximum ₹5 crore per project, released in two instalments of 50% each"
+      ],
+      "checks": [
+        "Applications only when MoFPI issues an EoI; none open as of Sep 2026",
+        "Covers a new unit or expansion/modernisation of food processing and preservation capacity",
+        "Credit-linked: 1st instalment after 50% of the term loan and promoter contribution are used; 2nd after commercial production and full use of the loan"
+      ],
+      "extraFor": "NE states, Himalayan states (HP, J&K, Uttarakhand), ITDP areas and islands: 50% instead of 35%",
+      "docs": "DPR, term-loan sanction, land title or lease, promoter net-worth certificate and KYC, Udyam, audited financials",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "10",
+        "11"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "SAMPADA portal – CEFPPC (only while an EoI is open)",
+        "url": "https://www.sampada-mofpi.gov.in/cefppc/Register.aspx"
+      },
+      "source": {
+        "label": "MoFPI – CEFPPC pattern of assistance and circulars",
+        "url": "https://mofpi.gov.in/Schemes/creation-expansion-food-processing-preservation-capacities-unit-scheme/download-circulars-1",
+        "date": "2026-07-08"
+      },
+      "kind": "sector",
+      "goals": [
+        "machinery"
+      ],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "pmksy-apc",
+      "name": "Scheme for Creation of Infrastructure for Agro-Processing Clusters – Pradhan Mantri Kisan SAMPADA Yojana",
+      "abbr": "PMKSY-APC",
+      "agency": "Ministry of Food Processing Industries (MoFPI)",
+      "cat": "Food processing",
+      "status": "closed 2025-07-31",
+      "statusNote": "MoFPI told the Lok Sabha on 06.08.2026 that 'at present, no EoI is open under the APC Scheme'. The last EoI (14.05.2025) closed on 31.07.2025 after an extension.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "35% grant (50% NE/hilly/SC-ST) up to ₹10 crore for agro-processing clusters; no open call",
+      "gets": [
+        "Grant-in-aid of 35% of eligible project cost in general areas",
+        "50% in NE states including Sikkim, Himalayan states, ITDP areas, islands, and for SC/ST entrepreneurs",
+        "Maximum ₹10 crore per cluster project (credit-linked)"
+      ],
+      "checks": [
+        "A Project Execution Agency must develop the cluster on at least 10 acres (owned, or leased for 50+ years)",
+        "At least 5 food processing units, with minimum ₹25 crore investment (per the MoFPI APC page)",
+        "Applications only through a MoFPI EoI; none open"
+      ],
+      "extraFor": "SC/ST entrepreneurs and projects in NE, Himalayan, ITDP or island areas: 50% instead of 35%",
+      "docs": "DPR, land documents (10+ acres), commitments from at least 5 units, term-loan sanction, net-worth certificates",
+      "confidence": "high",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": true,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "10",
+        "11"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "SAMPADA portal – Agro-Processing Clusters",
+        "url": "https://www.sampada-mofpi.gov.in/AgroCluster/Registration.aspx"
+      },
+      "source": {
+        "label": "Lok Sabha Unstarred Q 3129 (MoFPI), answered 06.08.2026",
+        "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU3129_8xnl7A.pdf",
+        "date": "2026-08-06"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "pmksy-cold-chain",
+      "name": "Integrated Cold Chain and Value Addition Infrastructure – Pradhan Mantri Kisan SAMPADA Yojana",
+      "abbr": "PMKSY Cold Chain (ICCVAI)",
+      "agency": "Ministry of Food Processing Industries (MoFPI)",
+      "cat": "Food processing",
+      "status": "closed 2025",
+      "statusNote": "The last general Cold Chain EoI (27.05.2025) was extended by a notice dated 25.07.2025, and no general call has been issued in 2026; only the irradiation-unit call below is live. As of 30.06.2026, 409 projects had been approved (Lok Sabha, 30.07.2026).",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "35% grant (50% hilly/NE/SC-ST/FPO/SHG) up to ₹10 crore for cold chains; general call closed",
+      "gets": [
+        "Grant-in-aid of 35% of eligible project cost in general areas",
+        "50% in NE states, HP, Uttarakhand, J&K, Ladakh, ITDP areas and islands, and for SC/ST, FPO and SHG proposals",
+        "Maximum ₹10 crore per project"
+      ],
+      "checks": [
+        "Integrated cold chain from farm gate to consumer for horticulture, dairy, meat, poultry and fish (shrimp excluded)",
+        "Credit-linked: term loan and promoter contribution required",
+        "Applications only through a MoFPI EoI; no general call open"
+      ],
+      "extraFor": "Projects in NE, Himalayan (incl. J&K, Ladakh), ITDP and island areas, and SC/ST, FPO or SHG applicants: 50% instead of 35%",
+      "docs": "DPR, term-loan sanction, land documents, net-worth certificate, KYC, Udyam",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "10"
+      ],
+      "nic4": [
+        "5210",
+        "0163"
+      ],
+      "apply": {
+        "label": "SAMPADA portal – Cold Chain",
+        "url": "https://www.sampada-mofpi.gov.in/icc/Register.aspx"
+      },
+      "source": {
+        "label": "MoFPI Cold Chain circulars (status); PIB ICCVAI backgrounder of Oct 2025 (pattern of assistance)",
+        "url": "https://mofpi.gov.in/Schemes/cold-chain/download-circulars-0",
+        "date": "2026-08-31"
+      },
+      "kind": "sector",
+      "goals": [
+        "machinery"
+      ],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "pmksy-irradiation",
+      "name": "Cold Chain Scheme (PMKSY) – Setting up of Multi-Product Food Irradiation Units",
+      "abbr": "PMKSY Irradiation Units",
+      "agency": "Ministry of Food Processing Industries (MoFPI)",
+      "cat": "Food processing",
+      "status": "closed 2026-09-30",
+      "statusNote": "Submissions under the EoI of 20.05.2026 closed at 17:00 hrs on 30.09.2026 (MoFPI notice of 31.08.2026), and no further extension is listed. The call drew on the ₹1,000 crore approved on 31.07.2025 for 50 irradiation units and 100 food-testing labs.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Grant 35% (50% hilly/NE/SC-ST/FPO/SHG) up to ₹10 crore for irradiation units",
+      "gets": [
+        "Grant-in-aid of 35% of eligible cost (plant and machinery plus technical civil works) in general areas",
+        "50% in difficult areas and for SC/ST, FPO and SHG proposals",
+        "Maximum ₹10 crore per project"
+      ],
+      "checks": [
+        "The last call closed at 17:00 hrs on 30.09.2026; apply only when MoFPI issues a fresh EoI",
+        "Conditions under the previous (Dec 2025) EoI: term loan of at least 20% of project cost (10% in difficult areas or for SC/ST/FPO/SHG), net worth at least equal to the grant sought, one application per entity",
+        "The EoI of 20 May 2026 and the corrigendum of 15 Jul 2026 set the final terms; check them before applying"
+      ],
+      "extraFor": "Difficult areas (NE, Himalayan, ITDP, islands) and SC/ST, FPO or SHG applicants: 50% grant and a lower minimum term loan",
+      "docs": "DPR, term-loan sanction or in-principle letter, land documents, net-worth certificate, processing-fee demand draft (as in the earlier EoI)",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "10"
+      ],
+      "nic4": [
+        "0163",
+        "5210"
+      ],
+      "apply": {
+        "label": "SAMPADA portal – Cold Chain (irradiation proposals)",
+        "url": "https://www.sampada-mofpi.gov.in/icc/Register.aspx"
+      },
+      "source": {
+        "label": "MoFPI notice extending the EoI of 20.05.2026 to 30.09.2026",
+        "url": "https://www.mofpi.gov.in/en/announcements/extension-timeline-1700-hrs-30092026-submission-multiproduct-food-irradiation",
+        "date": "2026-08-31"
+      },
+      "kind": "sector",
+      "goals": [
+        "machinery"
+      ],
+      "weight": 7,
+      "scope": "Only for setting up a food irradiation unit",
+      "checked": "1 Oct 2026"
+    },
+    {
+      "id": "pmksy-operation-greens",
+      "name": "Operation Greens – Pradhan Mantri Kisan SAMPADA Yojana (Long-Term Interventions)",
+      "abbr": "Operation Greens",
+      "agency": "Ministry of Food Processing Industries (MoFPI)",
+      "cat": "Food processing",
+      "status": "closed 2024-03-15",
+      "statusNote": "MoFPI withdrew the last long-term EoI (04.10.2023) by a notice dated 15.03.2024. The short-term transport/storage subsidy moved to the Department of Agriculture in 2023-24, and MoFPI has no budget for it in 2025-26 or 2026-27 (Lok Sabha, 23.07.2026).",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "35%/50% grant up to ₹15 crore for fruit, vegetable and shrimp value chains; no call since 2024",
+      "gets": [
+        "Integrated value-chain development projects: grant up to ₹15 crore",
+        "Standalone post-harvest infrastructure: up to ₹10 crore",
+        "35% of eligible cost in general areas; 50% in difficult areas and for SC/ST, FPO and SHG projects"
+      ],
+      "checks": [
+        "Covers 22 perishables, including tomato, onion, potato and shrimp",
+        "Applications only through a MoFPI EoI; none open"
+      ],
+      "extraFor": "Difficult areas and SC/ST, FPO or SHG projects: 50% instead of 35%",
+      "docs": "DPR, term-loan sanction, land documents, tie-ups with FPOs or production clusters",
+      "confidence": "high",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "0163",
+        "1030",
+        "1020"
+      ],
+      "apply": {
+        "label": "MoFPI – Operation Greens",
+        "url": "https://www.mofpi.gov.in/en/Schemes/about-operation-greens"
+      },
+      "source": {
+        "label": "Lok Sabha Unstarred Q 816 (MoFPI), 23.07.2026; MoFPI Operation Greens circulars",
+        "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU816_40BkNk.pdf",
+        "date": "2026-07-23"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "pmksy-fsqai-labs",
+      "name": "Food Safety & Quality Assurance Infrastructure – Food Testing Laboratories (PMKSY)",
+      "abbr": "PMKSY-FSQAI Labs",
+      "agency": "Ministry of Food Processing Industries (MoFPI)",
+      "cat": "Food processing",
+      "status": "closed 2026-02-27",
+      "statusNote": "The EoI for NABL-accredited food-testing labs under the new guidelines of 12.11.2025 closed on 27.02.2026 after two extensions, and no fresh call is listed as of Sep 2026.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "50% (70% difficult areas/SC-ST) equipment grant for NABL food-testing labs; call closed Feb 2026",
+      "gets": [
+        "Grant of 50% of eligible lab-equipment cost (70% in difficult areas and for SC/ST applicants), per MoFPI's pattern page (2022)",
+        "Plus 2% of equipment cost or ₹15 lakh, whichever is lower, for technical civil work and furniture",
+        "Caps under the 12.11.2025 guidelines unconfirmed (scanned PDF)"
+      ],
+      "checks": [
+        "NABL accreditation required",
+        "Applications only through a MoFPI EoI; none open"
+      ],
+      "extraFor": "Difficult areas and SC/ST applicants: 70% equipment grant",
+      "docs": "DPR, lab layout and equipment quotations, NABL accreditation plan, land or lease documents, net-worth certificate",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "7120"
+      ],
+      "apply": {
+        "label": "SAMPADA – Food Testing Labs EoI",
+        "url": "https://www.sampada-mofpi.gov.in/ftl_eoi/Registration.aspx"
+      },
+      "source": {
+        "label": "MoFPI FSQAI circulars and pattern of assistance",
+        "url": "https://mofpi.gov.in/Schemes/food-safety-quality-assurance-infrastructure/setting-gradation-quality-control-food-testing-laboratory/download-circulars-4",
+        "date": "2026-02-10"
+      },
+      "kind": "sector",
+      "goals": [
+        "quality"
+      ],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "mofpi-refinance",
+      "name": "Refinance Scheme for Affordable Credit to Food Processing Units",
+      "abbr": "MoFPI–NABARD Refinance",
+      "agency": "Ministry of Food Processing Industries / NABARD (Department of Refinance)",
+      "cat": "Food processing",
+      "status": "open",
+      "statusNote": "NABARD guidelines dated 21.04.2026 (posted by MoFPI on 21.08.2026) open a ₹983.02 crore refinance corpus for 2026-27 or until it is used up.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Bank term loans at ≤10% interest for food units holding MoFPI grants, via NABARD refinance",
+      "gets": [
+        "Bank term loan at a final lending rate of no more than 10% a year",
+        "NABARD refinances the bank at 4.25% a year"
+      ],
+      "checks": [
+        "Only food processing units that have received a MoFPI grant (the guidelines do not say which schemes count; PMFME unconfirmed)",
+        "Term loans only, with at least 18 months left to run when refinance is sought",
+        "Lender must be a State Cooperative Bank, RRB or eligible scheduled commercial bank",
+        "Borrower's aggregate bank limit up to ₹100 crore"
+      ],
+      "extraFor": "Loans in NE states, J&K/HP/Uttarakhand, Eastern states (WB, Odisha, Bihar, Jharkhand, A&N), Lakshadweep, Chhattisgarh, and to FPOs/FPCs: bank gets 100% refinance (85% elsewhere)",
+      "docs": "MoFPI grant sanction letter, term-loan sanction and loan account statement",
+      "confidence": "high",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [
+        "10",
+        "11"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "Apply through your lending bank (NABARD refinance) – guidelines",
+        "url": "https://www.mofpi.gov.in/sites/default/files/guideline_english.pdf"
+      },
+      "source": {
+        "label": "MoFPI – Guidelines on the Refinance Scheme (NABARD, 21.04.2026)",
+        "url": "https://www.mofpi.gov.in/en/announcements/guidelines-refinance-scheme-affordable-credit-food-processing-units-under-food",
+        "date": "2026-08-21"
+      },
+      "kind": "sector",
+      "goals": [
+        "credit"
+      ],
+      "weight": 7,
+      "scope": "Only for food units that already hold a MoFPI grant",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "aif",
+      "name": "Agriculture Infrastructure Fund",
+      "abbr": "AIF",
+      "agency": "Ministry of Agriculture & Farmers Welfare (DA&FW); loans through banks and financial institutions",
+      "cat": "Agriculture & allied",
+      "status": "open, renewal pending",
+      "statusNote": "The scheme runs to 2032-33, but loan disbursement was approved only to 2025-26. Budget 2026-27 still allots ₹910 crore and reported investment rose from ₹1.28 lakh crore (26.01.2026) to ₹1.62 lakh crore (15.07.2026), yet no formal extension of the sanction window was found.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "3% interest subvention plus credit guarantee on agri post-harvest loans up to ₹2 crore",
+      "gets": [
+        "3% a year interest subvention on loans up to ₹2 crore per project, for up to 7 years",
+        "Credit guarantee cover (CGTMSE / NAB Sanrakshan) on loans up to ₹2 crore",
+        "Lending rate capped at 9% a year",
+        "Private entities can claim for up to 25 projects at different locations"
+      ],
+      "checks": [
+        "Eligible assets: warehouses, silos, cold stores, pack houses, sorting/grading, assaying, ripening chambers, primary processing centres, logistics; integrated primary-secondary processing added in Aug 2024",
+        "Borrowers: farmers, agri-entrepreneurs, startups, FPOs, PACS, SHGs, JLGs, cooperatives, PPP projects",
+        "Minimum 10% promoter margin (per SBI)",
+        "Confirm with the bank that new sanctions are still accepted after 31.03.2026"
+      ],
+      "extraFor": "",
+      "docs": "DPR, land ownership or lease, KYC, Udyam (if an MSME), quotations, bank loan application",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "10"
+      ],
+      "nic4": [
+        "0161",
+        "0163",
+        "0164",
+        "5210"
+      ],
+      "apply": {
+        "label": "AIF portal",
+        "url": "https://agriinfra.dac.gov.in/"
+      },
+      "source": {
+        "label": "Lok Sabha Unstarred Q 1468 and 1410 (28.07.2026); PIB note of 09.08.2025",
+        "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU1468_LFRERs.pdf",
+        "date": "2026-07-28"
+      },
+      "kind": "sector",
+      "goals": [
+        "credit"
+      ],
+      "weight": 7,
+      "scope": "For post-harvest and primary processing infrastructure, such as warehouses, cold storage, sorting and grading",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "ahidf",
+      "name": "Animal Husbandry Infrastructure Development Fund",
+      "abbr": "AHIDF",
+      "agency": "Department of Animal Husbandry & Dairying (Ministry of Fisheries, Animal Husbandry & Dairying); loans from banks, NABARD, NCDC, NDDB",
+      "cat": "Dairy & livestock",
+      "status": "open, renewal pending",
+      "statusNote": "DAHD's scheme page says AHIDF runs 'up to FY 2025-2026 till 31.03.2026'. Budget 2026-27 raises its allocation to ₹465 crore and a Lok Sabha reply of 21.07.2026 still presents it as available, but no 2026-31 approval was found.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "3% interest subvention for 8 years on loans up to 90% for dairy, meat and feed units",
+      "gets": [
+        "3% a year interest subvention for 8 years, including a 2-year moratorium",
+        "Term loan up to 90% of project cost from scheduled banks, NABARD, NCDC or NDDB",
+        "Credit guarantee up to 25% of the term loan for MSMEs and dairy cooperatives (₹750 crore fund)"
+      ],
+      "checks": [
+        "Eligible activities: dairy processing and value addition, meat processing, animal-feed plants, breed-multiplication farms, veterinary vaccine/drug units, animal waste-to-wealth, primary wool processing (NIC 2100 only for veterinary products)",
+        "Promoter margin 10% for micro/small and 15% for medium units (per SBI)",
+        "Confirm with the portal or bank that new loans are accepted after 31.03.2026"
+      ],
+      "extraFor": "MSMEs and dairy cooperatives: credit guarantee on up to 25% of the term loan",
+      "docs": "DPR, KYC, Udyam, land documents, bank loan application, FSSAI/pollution clearances as applicable",
+      "confidence": "low",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "1050",
+        "1010",
+        "1080",
+        "2100",
+        "0141",
+        "0144",
+        "0145",
+        "0146"
+      ],
+      "apply": {
+        "label": "AHIDF portal (Udyamimitra)",
+        "url": "https://ahidf.udyamimitra.in/"
+      },
+      "source": {
+        "label": "DAHD AHIDF page; PIB of 01.02.2024; Lok Sabha Unstarred Q 257 (21.07.2026)",
+        "url": "https://www.dahd.gov.in/en/schemes/programmes/ahidf",
+        "date": "2026-07-21"
+      },
+      "kind": "sector",
+      "goals": [
+        "credit",
+        "machinery"
+      ],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "nlm-edp",
+      "name": "National Livestock Mission – Entrepreneurship Development Programme",
+      "abbr": "NLM-EDP",
+      "agency": "Department of Animal Husbandry & Dairying; subsidy routed through SIDBI",
+      "cat": "Dairy & livestock",
+      "status": "closed 2025-07-08",
+      "statusNote": "DAHD told the Lok Sabha on 24.03.2026 that fresh NLM-EDP applications were suspended from 08.07.2025 because new projects could not be finished by 31.03.2026. No reopening has been announced, despite ₹808 crore for NLM in Budget 2026-27.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "individual",
+        "SHG",
+        "FPO",
+        "JLG",
+        "cooperative",
+        "Section 8 company"
+      ],
+      "headline": "50% capital subsidy up to ₹50 lakh for livestock breeding and fodder units; portal suspended",
+      "gets": [
+        "50% capital subsidy: poultry breeding up to ₹25 lakh",
+        "Sheep and goat breeding ₹10–50 lakh; piggery ₹15–30 lakh",
+        "Feed and fodder units (silage, TMR, fodder block, hay) and fodder-seed processing up to ₹50 lakh",
+        "Horse, donkey and camel breeding ₹3–50 lakh",
+        "Paid in two equal instalments through SIDBI"
+      ],
+      "checks": [
+        "Needs a bank loan sanction, or a bank guarantee if self-financed",
+        "1st instalment only after the loan is sanctioned and part of the own contribution is spent",
+        "Portal closed to fresh applications since 08.07.2025"
+      ],
+      "extraFor": "",
+      "docs": "DPR, KYC, land documents, bank loan sanction or guarantee",
+      "confidence": "high",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "0142",
+        "0143",
+        "0144",
+        "0145",
+        "0146",
+        "1080",
+        "0164"
+      ],
+      "apply": {
+        "label": "NLM Udyamimitra portal (not accepting applications)",
+        "url": "https://nlm.udyamimitra.in/"
+      },
+      "source": {
+        "label": "Lok Sabha Unstarred Q 5146 (24.03.2026); NLM Guidelines Jan 2025",
+        "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/187/AU5146_pu9yD2.pdf",
+        "date": "2026-03-24"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "dahd-ised",
+      "name": "Integrated Scheme for Entrepreneurship Development (Animal Husbandry) – including the Credit Linked Subsidy Programme",
+      "abbr": "Animal husbandry subsidy",
+      "agency": "Department of Animal Husbandry & Dairying",
+      "cat": "Dairy & livestock",
+      "status": "announced, not launched",
+      "statusNote": "Announced in the Budget speech of 01.02.2026 (para 77) and given ₹500 crore in the DAHD demand for 2026-27, but no guidelines or portal appear on the DAHD website as of Sep 2026.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "New ₹500 crore credit-linked subsidy for livestock, dairy and poultry enterprises; guidelines awaited",
+      "gets": [
+        "Credit-linked subsidy for animal-husbandry entrepreneurs (rate and cap not yet notified)",
+        "Support for scaling up and modernising livestock enterprises and for livestock, dairy and poultry value chains",
+        "Support for Livestock Farmer Producer Organisations"
+      ],
+      "checks": [
+        "All eligibility and benefit details unconfirmed until operational guidelines are issued"
+      ],
+      "extraFor": "",
+      "docs": "unconfirmed",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "0141",
+        "0144",
+        "0145",
+        "0146",
+        "1050",
+        "1010",
+        "1080",
+        "7500"
+      ],
+      "apply": {
+        "label": "DAHD website (watch for guidelines)",
+        "url": "https://dahd.gov.in/"
+      },
+      "source": {
+        "label": "Expenditure Budget 2026-27, Demand No. 44 (DAHD); Budget speech para 77",
+        "url": "https://www.indiabudget.gov.in/doc/eb/sbe44.pdf",
+        "date": "2026-02-01"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "pmmsy",
+      "name": "Pradhan Mantri Matsya Sampada Yojana",
+      "abbr": "PMMSY",
+      "agency": "Department of Fisheries (Ministry of Fisheries, Animal Husbandry & Dairying); implemented through State/UT Fisheries Departments",
+      "cat": "Fisheries",
+      "status": "open, renewal pending",
+      "statusNote": "PMMSY was extended only to 30 Sep 2026 (Lok Sabha, 11.08.2026), and no further extension or 2026–31 continuation had been announced by 1 Oct 2026, although Budget 2026-27 provides ₹2,500 crore.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "40% subsidy (60% for SC/ST/women) on fisheries and aquaculture projects via state fisheries departments",
+      "gets": [
+        "Government assistance of 40% of unit/project cost for general-category beneficiaries",
+        "60% for SC, ST and women beneficiaries",
+        "PIB backgrounder (Sep 2025): assistance up to ₹1.5 crore per project",
+        "Covers aquaculture units, post-harvest and cold chain, fish marketing and value addition, within the unit-cost norms in the state's action plan"
+      ],
+      "checks": [
+        "Beneficiaries: fishers, fish farmers, fish workers and vendors, SHGs/JLGs, FFPOs, cooperatives; entrepreneurs and private firms per PMMSY guidelines (confirm with the state)",
+        "Project must fit activity unit-cost norms and the State/UT annual action plan",
+        "Apply at the District Fisheries Office with a project report",
+        "Confirm with the District Fisheries Office that new proposals are accepted after 30 Sep 2026"
+      ],
+      "extraFor": "SC/ST and women beneficiaries: 60% instead of 40%; NE and Himalayan states funded 90:10 Centre:State",
+      "docs": "Project report/DPR, Aadhaar, caste certificate (SC/ST), land or lease documents, bank details, quotations",
+      "confidence": "high",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "03"
+      ],
+      "nic4": [
+        "1020"
+      ],
+      "apply": {
+        "label": "PMMSY portal / District Fisheries Office",
+        "url": "https://pmmsy.dof.gov.in/"
+      },
+      "source": {
+        "label": "Lok Sabha Unstarred Q 3790 'Extension of PMMSY' (11.08.2026)",
+        "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU3790_wCqp4N.pdf",
+        "date": "2026-08-11"
+      },
+      "kind": "sector",
+      "goals": [
+        "machinery",
+        "credit"
+      ],
+      "weight": 7,
+      "checked": "1 Oct 2026"
+    },
+    {
+      "id": "fidf",
+      "name": "Fisheries and Aquaculture Infrastructure Development Fund",
+      "abbr": "FIDF",
+      "agency": "Department of Fisheries; loans through NABARD, NCDC and scheduled banks (Nodal Loaning Entities)",
+      "cat": "Fisheries",
+      "status": "open, renewal pending",
+      "statusNote": "Approved to 2025-26, yet approved projects rose from 228 (Lok Sabha, 24.03.2026) to 253 (Lok Sabha, 11.08.2026) and Budget 2026-27 provides ₹30.30 crore; no formal 2026-31 continuation was found.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Up to 3% interest subvention on fisheries infrastructure loans priced no lower than 5%",
+      "gets": [
+        "Interest subvention of up to 3% a year from the Department of Fisheries",
+        "Concessional loans from NABARD, NCDC or scheduled banks at no less than 5% a year"
+      ],
+      "checks": [
+        "For fisheries and aquaculture infrastructure projects (for example cold chain, processing, feed, harbour facilities)",
+        "Lok Sabha lists eligible entities as States/UTs, state entities and other stakeholders; private-entrepreneur eligibility, the 80%-of-cost loan limit and 12-year tenor come from the 2018 guidelines and are unconfirmed for 2026",
+        "Proposals go through the State Fisheries Department / Department of Fisheries"
+      ],
+      "extraFor": "",
+      "docs": "DPR, loan application to a Nodal Loaning Entity, land documents, statutory clearances",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "03"
+      ],
+      "nic4": [
+        "1020"
+      ],
+      "apply": {
+        "label": "Department of Fisheries (FIDF)",
+        "url": "https://dof.gov.in/"
+      },
+      "source": {
+        "label": "Lok Sabha Unstarred Q 3765 (11.08.2026) and Q 5106 (24.03.2026)",
+        "url": "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU3765_kGPwO8.pdf",
+        "date": "2026-08-11"
+      },
+      "kind": "sector",
+      "goals": [
+        "credit"
+      ],
+      "weight": 7,
+      "scope": "For fisheries infrastructure projects; whether private entrepreneurs can borrow directly is unconfirmed",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "pm-mkssy",
+      "name": "Pradhan Mantri Matsya Kisan Samridhi Sah-Yojana",
+      "abbr": "PM-MKSSY",
+      "agency": "Department of Fisheries (Central Sector sub-scheme of PMMSY)",
+      "cat": "Fisheries",
+      "status": "open",
+      "statusNote": "Approved for FY 2023-24 to FY 2026-27 with ₹6,000 crore (PIB, 08.02.2024) and cited as under implementation in a Lok Sabha reply of 11.08.2026. Whether performance-grant claims are currently being processed on NFDP is unconfirmed.",
+      "sizes": [
+        "micro",
+        "small"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Performance grants up to ₹35–100 lakh for fisheries micro/small enterprises, plus insurance premium support",
+      "gets": [
+        "Value-chain efficiency grant for micro enterprises: 25% of investment up to ₹35 lakh (35% up to ₹45 lakh if SC/ST/women-owned)",
+        "Safety and quality systems grant for small enterprises: 25% up to ₹75 lakh (35% up to ₹100 lakh if SC/ST/women-owned); micro enterprises as above",
+        "Village-level organisations, FFPOs and cooperatives: 35% up to ₹200 lakh",
+        "Job incentive of ₹15,000 a year per woman's job and ₹10,000 per man's job (up to 50% of the eligible grant)",
+        "Aquaculture insurance: 40% of premium up to ₹25,000 per hectare, maximum ₹1 lakh per farm (4 ha)"
+      ],
+      "checks": [
+        "Must register on the National Fisheries Digital Platform (NFDP)",
+        "Enterprise must be in the fisheries/aquaculture value chain (fishers, farmers, vendors, processors, startups, SHGs, FFPOs, cooperatives)",
+        "Grants are performance-linked"
+      ],
+      "extraFor": "SC/ST/women-owned enterprises: 35% (vs 25%) with higher caps; extra 10% on the insurance incentive; higher job incentive for jobs held by women",
+      "docs": "NFDP registration, Udyam/GST, investment bills or CA certificate, bank details",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [
+        "03"
+      ],
+      "nic4": [
+        "1020"
+      ],
+      "apply": {
+        "label": "National Fisheries Digital Platform",
+        "url": "https://nfdp.dof.gov.in/"
+      },
+      "source": {
+        "label": "PIB – Cabinet approval of PM-MKSSY",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2004216",
+        "date": "2024-02-08"
+      },
+      "kind": "sector",
+      "goals": [
+        "credit",
+        "quality"
+      ],
+      "weight": 7,
+      "fit": "check",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "unnati-2024",
+      "name": "Uttar Poorva Transformative Industrialization Scheme, 2024",
+      "abbr": "UNNATI 2024",
+      "agency": "DPIIT, Ministry of Commerce & Industry",
+      "cat": "Region: North-East",
+      "status": "closed 2026-09-30",
+      "statusNote": "Registration closed on 30 Sep 2026, the extended deadline cited by the Assam Cabinet on 24 Sep 2026; in most states registrations had already stopped once fund limits were reached. Assam has approved a state capital investment subsidy for eligible manufacturing units that missed registration.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "30–50% capital incentive up to ₹7.5 crore plus a GST-linked incentive in the North-East",
+      "gets": [
+        "Capital Investment Incentive: Zone A 30% (max ₹5 crore), Zone B 50% (max ₹7.5 crore); ₹10 crore cap for non-GST sectors",
+        "Central Capital Interest Subvention: 3% (Zone A) or 5% (Zone B) for 7 years on loans up to ₹250 crore",
+        "Manufacturing & Services Linked Incentive: 100% of net GST for 10 years, capped at 75% (Zone A) or 100% (Zone B) of eligible investment",
+        "Overall cap of ₹250 crore per unit"
+      ],
+      "checks": [
+        "New unit or expansion in the 8 NE states; must be registered, then start production within 4 years of registration",
+        "Minimum investment: ₹1 crore in plant and machinery for manufacturing, ₹50 lakh for services, ₹50 lakh for micro units",
+        "Negative-list sectors excluded; services must be on the positive list",
+        "Zone A/B fixed by notified district/block"
+      ],
+      "extraFor": "Industrially backward Zone B blocks: 50% capital incentive, 5% interest subvention, 100% GST-incentive cap",
+      "docs": "GST registration, Udyam, DPR, land documents, CA-certified investment proofs, bank loan sanction (for interest subvention)",
+      "confidence": "low",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [
+        "Arunachal Pradesh",
+        "Assam",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Sikkim",
+        "Tripura"
+      ],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "UNNATI portal",
+        "url": "https://unnati.dpiit.gov.in/"
+      },
+      "source": {
+        "label": "India Today NE, 24 Sep 2026 (Assam Cabinet decision); UNNATI notification of 9 Mar 2024",
+        "url": "https://www.indiatodayne.in/assam/story/assam-cabinet-approves-rs-11000-crore-jk-lakshmi-cement-investment-adb-backed-beel-restoration-project-1455008-2026-09-24",
+        "date": "2026-09-24"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "1 Oct 2026"
+    },
+    {
+      "id": "jk-ncss-2021",
+      "name": "New Central Sector Scheme for Industrial Development of Jammu & Kashmir, 2021",
+      "abbr": "J&K NCSS 2021",
+      "agency": "DPIIT, Ministry of Commerce & Industry",
+      "cat": "Region: J&K",
+      "status": "closed 2024-09-30",
+      "statusNote": "Registration ran 01.04.2021–30.09.2024, with applications to be decided by 31.03.2025. Only units already registered can claim during the scheme's life to 2036-37 (outlay ₹28,400 crore); no reopening was found.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Up to ₹7.5 crore capital incentive, 6% interest subvention, GST incentive in J&K; registration closed",
+      "gets": [
+        "Capital Investment Incentive: Zone A 30% (max ₹5 crore), Zone B 50% (max ₹7.5 crore), for plant and machinery below ₹50 crore",
+        "Capital Interest Subvention of 6% for 7 years on loans up to ₹500 crore",
+        "GST-linked incentive: 100% of gross GST for 10 years, capped at 300% of eligible investment",
+        "Working-capital interest subvention: 5% for 5 years (max ₹1 crore), for existing units registered under GST before notification"
+      ],
+      "checks": [
+        "Unit must be in the UT of Jammu & Kashmir (Ladakh not covered)",
+        "New unit or substantial expansion; production must start within 3 years of registration",
+        "Services only from the positive list, with at least ₹1 crore investment",
+        "Only units registered by 30.09.2024 can claim"
+      ],
+      "extraFor": "Zone B blocks: 50% capital incentive instead of 30%",
+      "docs": "NCSS registration certificate, GST returns, CA-certified investment, loan documents",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [
+        "Jammu and Kashmir"
+      ],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "J&K NCSS portal (claims by registered units)",
+        "url": "https://jknis.dpiit.gov.in/"
+      },
+      "source": {
+        "label": "DPIIT J&K NCSS portal; registration dates from the scheme guidelines (IndiaFilings summary)",
+        "url": "https://jknis.dpiit.gov.in/",
+        "date": "2021-02-19"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "rptuas",
+      "name": "Revamped Pharmaceutical Technology Upgradation Assistance Scheme (sub-scheme of Strengthening of Pharmaceutical Industry)",
+      "abbr": "RPTUAS",
+      "agency": "Department of Pharmaceuticals, Ministry of Chemicals & Fertilizers",
+      "cat": "Pharma",
+      "status": "open, renewal pending",
+      "statusNote": "The Rs 300.10 cr outlay covered FY2024-25 to 2025-26 (PIB 6 Feb 2026: 255 units sanctioned Rs 248.2 cr, 19 paid); DoP modified the guidelines on 21 Mar 2026 and BE 2026-27 gives PTUAS Rs 250 cr, but there is no confirmed 2026-31 approval and no confirmation that fresh applications are still accepted.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "10–20% capital subsidy, max Rs 2 crore, for pharma units upgrading to Revised Schedule M/WHO-GMP",
+      "gets": [
+        "Reimbursement of 20% of eligible investment if 3-year average turnover is Rs 1–50 cr, 15% for Rs 50–250 cr, 10% for Rs 250–500 cr",
+        "Ceiling of Rs 2 crore per unit; 1st instalment = 50% of eligible amount (max Rs 1 cr), released about 30 days after a complete claim",
+        "Eligible items: HVAC, water/steam utilities, testing labs, stability chambers, clean rooms, effluent/waste management and (since Sep 2024) production equipment"
+      ],
+      "checks": [
+        "Existing pharma manufacturing unit with 3-year average turnover below Rs 500 cr (MSMEs preferred); the incentive bands start at Rs 1 cr turnover",
+        "Upgrade must target Revised Schedule M / WHO-GMP; online application with a gap analysis",
+        "Spending incurred on or after 1 Jan 2024 and CA-certified",
+        "From Mar 2026: 1st instalment needs either the Revised Schedule M or the WHO-GMP certificate; the 2nd instalment needs the other one"
+      ],
+      "extraFor": "State schemes can top up the assistance (per DoP)",
+      "docs": "Drug manufacturing licence; 3-yr audited financials; gap-analysis report; CA certificate and invoices; Revised Schedule M/WHO-GMP certificate; Udyam (if MSME)",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "21"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "DoP online application under RPTUAS guidelines",
+        "url": "https://pharma-dept.gov.in/important-document/modification-guidelines-sub-scheme-revamped-pharmaceutical-technology-upgradation"
+      },
+      "source": {
+        "label": "PIB – RPTUAS status (Department of Pharmaceuticals)",
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2224373&reg=48&lang=2",
+        "date": "2026-02-06"
+      },
+      "kind": "sector",
+      "goals": [
+        "machinery",
+        "quality"
+      ],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "spi-apicf",
+      "name": "Assistance to Pharmaceutical Industry for Common Facilities (sub-scheme of Strengthening of Pharmaceutical Industry)",
+      "abbr": "API-CF",
+      "agency": "Department of Pharmaceuticals",
+      "cat": "Pharma",
+      "status": "open, renewal pending",
+      "statusNote": "The SPI umbrella was approved to FY2025-26; the DoP Annual Report 2025-26 lists 8 cluster projects (5 due by Mar 2026) and BE 2026-27 is only Rs 15.84 cr, so new calls are unconfirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "spv"
+      ],
+      "headline": "Pharma-cluster common facility grant, reportedly up to Rs 20 crore/70% of cost (unconfirmed)",
+      "gets": [
+        "Grant for common infrastructure in pharma clusters (e.g., testing/R&D labs, effluent treatment, training); the per-project cap and GoI share in the current guidelines are unconfirmed"
+      ],
+      "checks": [
+        "Only a cluster SPV of pharma units can apply",
+        "Individual units benefit only as SPV members"
+      ],
+      "extraFor": "Higher share for NE and Himalayan states reported (unconfirmed)",
+      "docs": "SPV registration; DPR; land documents; state recommendation; member list",
+      "confidence": "low",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": true,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "21"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "Department of Pharmaceuticals – schemes",
+        "url": "https://pharma-dept.gov.in/schemes"
+      },
+      "source": {
+        "label": "DoP Annual Report 2025-26",
+        "url": "https://pharma-dept.gov.in/sites/default/files/Annual%20Report%202025-26.pdf",
+        "date": "2025-11"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "prip",
+      "name": "Promotion of Research and Innovation in Pharma MedTech Sector (Component B)",
+      "abbr": "PRIP",
+      "agency": "Department of Pharmaceuticals",
+      "cat": "Pharma",
+      "status": "closed 2025-11-19",
+      "statusNote": "The final submission date for the Component B call was 19 Nov 2025 (710 applications, DoP Annual Report 2025-26); the scheme runs to FY2029-30 with BE 2026-27 of Rs 750 cr, but no new call was confirmed by Sep 2026.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "R&D grants: startups/MSMEs up to Rs 5 crore; later-stage up to 35%, max Rs 100 crore",
+      "gets": [
+        "Early-stage projects (TRL 1–5) by startups/MSMEs: up to Rs 5 cr, with 100% funding up to Rs 1 cr and a 50% cost-share above that",
+        "Later-stage projects (TRL 4+): up to 35% of project cost, max Rs 100 cr; up to 50% in strategic priority areas"
+      ],
+      "checks": [
+        "R&D project in a DoP priority area for pharma/medtech",
+        "Apply only while a call is open on the PRIP portal"
+      ],
+      "extraFor": "Startups/MSMEs: 100% funding up to Rs 1 crore for early-stage projects",
+      "docs": "Project proposal with TRL assessment; entity registration (DPIIT startup/Udyam); financials; budget and milestones",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "2100",
+        "3250",
+        "2660"
+      ],
+      "apply": {
+        "label": "PRIP portal (Department of Pharmaceuticals)",
+        "url": "https://prip.pharma-dept.gov.in/"
+      },
+      "source": {
+        "label": "DoP Annual Report 2025-26",
+        "url": "https://pharma-dept.gov.in/sites/default/files/Annual%20Report%202025-26.pdf",
+        "date": "2025-11"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "smdi-mis",
+      "name": "Marginal Investment Scheme for Reducing Import Dependence (Scheme for Strengthening of Medical Device Industry)",
+      "abbr": "SMDI-MIS",
+      "agency": "Department of Pharmaceuticals",
+      "cat": "Pharma",
+      "status": "closed 2026-07-23",
+      "statusNote": "DoP invited proposals on 29 Jun 2026 with a deadline of 23 Jul 2026; the sub-scheme outlay is Rs 180 cr (10 projects approved by Nov 2025) and BE 2026-27 is Rs 20 cr, so further calls are likely but unconfirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "One-time capital subsidy up to Rs 10 crore for making import-substituting medical device components/devices",
+      "gets": [
+        "One-time capital subsidy of up to Rs 10 crore, paid as reimbursement, for investment in making key components, raw materials, finished medical devices or accessories (the percentage of investment is unconfirmed)"
+      ],
+      "checks": [
+        "Product must fall in DoP's import-dependent categories for the call",
+        "Apply only during a call window on the SMDI portal",
+        "Component/raw-material makers under other NIC codes may qualify if their product is covered"
+      ],
+      "extraFor": "",
+      "docs": "Entity registration; DPR with capex plan; import-substitution justification; CDSCO licences; CA-certified investment",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "3250",
+        "2660"
+      ],
+      "apply": {
+        "label": "SMDI application portal",
+        "url": "https://smdi.lsssdc.in/"
+      },
+      "source": {
+        "label": "ANI – DoP invites SMDI proposals",
+        "url": "https://aninews.in/news/business/govt-invites-proposals-for-medical-device-manufacturing-offers-up-to-rs-10-crore-subsidy20260629161152/",
+        "date": "2026-06-29"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "smdi-mdcss",
+      "name": "Medical Device Clinical Studies Support Scheme (Scheme for Strengthening of Medical Device Industry)",
+      "abbr": "MDCSS",
+      "agency": "Department of Pharmaceuticals",
+      "cat": "Pharma",
+      "status": "closed 2026-07-23",
+      "statusNote": "This sub-scheme was part of the same DoP call (29 Jun–23 Jul 2026); its outlay is Rs 100 cr with 18 projects approved by Nov 2025, and the next call is unconfirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Up to Rs 5 crore reimbursement for medical device clinical investigations and animal studies",
+      "gets": [
+        "Up to Rs 5 crore (reimbursement) for clinical investigations, clinical performance evaluation, post-market follow-up studies and pre-clinical animal studies"
+      ],
+      "checks": [
+        "Indian medical device/IVD maker that needs clinical evidence",
+        "Apply only during a call window on the SMDI portal"
+      ],
+      "extraFor": "",
+      "docs": "Device details and CDSCO status; study protocol and ethics approval; budget; CA-certified costs",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "3250",
+        "2660"
+      ],
+      "apply": {
+        "label": "SMDI application portal",
+        "url": "https://smdi.lsssdc.in/"
+      },
+      "source": {
+        "label": "ANI – DoP invites SMDI proposals",
+        "url": "https://aninews.in/news/business/govt-invites-proposals-for-medical-device-manufacturing-offers-up-to-rs-10-crore-subsidy20260629161152/",
+        "date": "2026-06-29"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "smdi-cf",
+      "name": "Common Facilities for Medical Devices Clusters (Scheme for Strengthening of Medical Device Industry)",
+      "abbr": "SMDI-CF",
+      "agency": "Department of Pharmaceuticals",
+      "cat": "Pharma",
+      "status": "closed 2026-08-08",
+      "statusNote": "Proposals were invited in Jul 2026 with a deadline of 8 Aug 2026 (Medical Buyer, 28 Jul 2026); the outlay is Rs 110 cr, with 4 common-facility and 6 testing-facility proposals approved in principle by Nov 2025.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "spv"
+      ],
+      "headline": "Grant for shared testing, sterilisation and clean-room facilities in medical device clusters (Rs 110 cr pool)",
+      "gets": [
+        "Grant for common facilities: testing and calibration labs, sterilisation, clean rooms, tool rooms and product development centres (per-project cap unconfirmed)"
+      ],
+      "checks": [
+        "Applicant must be an industry association, cluster developer/SPV or state-backed body representing device makers"
+      ],
+      "extraFor": "",
+      "docs": "Applicant registration; DPR; land; list of member manufacturers",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": true,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "3250",
+        "2660"
+      ],
+      "apply": {
+        "label": "AMDCF application portal",
+        "url": "https://amdcf.udyamimitra.in/"
+      },
+      "source": {
+        "label": "Medical Buyer – DoP call for cluster proposals",
+        "url": "https://medicalbuyer.co.in/centre-opens-applications-for-medical-device-cluster-infrastructure-to-cut-imports/",
+        "date": "2026-07-28"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "samarth",
+      "name": "Samarth – Scheme for Capacity Building in Textiles Sector",
+      "abbr": "Samarth",
+      "agency": "Ministry of Textiles",
+      "cat": "Textiles",
+      "status": "open, renewal pending",
+      "statusNote": "Samarth was extended to 31 Mar 2026 with Rs 495 cr (PIB 16 Oct 2024); BE 2026-27 has no separate Samarth line, and 'Samarth 2.0' sits inside the Rs 1,500 cr Integrated Textile Programme, not confirmed as launched by Sep 2026.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Govt-funded placement-linked training (Rs 495 cr, 3 lakh target) delivered through textile-industry implementing partners",
+      "gets": [
+        "Training cost, per government common cost norms, paid to textile units/associations that train workers as implementing partners",
+        "Free entry-level and upskilling training for the unit's workforce"
+      ],
+      "checks": [
+        "Implementing partner must be a textile unit, a registered textile association or a chamber",
+        "Placement of trainees is mandatory (the placement % is unconfirmed)",
+        "Organised spinning and weaving are excluded"
+      ],
+      "extraFor": "",
+      "docs": "Entity registration; training centre details; placement commitment; PAN/GST",
+      "confidence": "low",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [
+        "13",
+        "14"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "Samarth portal",
+        "url": "https://samarth-textiles.gov.in/"
+      },
+      "source": {
+        "label": "PIB – Samarth extended till March 2026",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2065497&reg=48&lang=2",
+        "date": "2024-10-16"
+      },
+      "kind": "sector",
+      "goals": [
+        "hiring"
+      ],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "nttm-great",
+      "name": "National Technical Textiles Mission – Grant for Research & Entrepreneurship across Aspiring Innovators in Technical Textiles",
+      "abbr": "NTTM-GREAT",
+      "agency": "Ministry of Textiles",
+      "cat": "Textiles",
+      "status": "open, renewal pending",
+      "statusNote": "NTTM (Rs 1,480 cr) was extended to 31 Mar 2026 (PIB Year End Review, Dec 2025) and BE 2026-27 gives it Rs 256 cr, but a 2026-31 approval and an open GREAT call are unconfirmed.",
+      "sizes": [
+        "micro",
+        "small"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Grant up to Rs 50 lakh for technical-textile startups under NTTM's GREAT scheme",
+      "gets": [
+        "Grant of about Rs 50 lakh per technical-textile startup project (4 startups received about Rs 50 lakh each in Aug 2024; 24 startups approved in total)"
+      ],
+      "checks": [
+        "Startup/innovator in technical textiles (composites, smart, sustainable textiles etc.)",
+        "Approved by NTTM Empowered Programme Committee; detailed eligibility unconfirmed"
+      ],
+      "extraFor": "",
+      "docs": "Startup registration; project proposal; incubator/host details",
+      "confidence": "low",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [
+        "13"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "NTTM portal",
+        "url": "https://nttm.texmin.gov.in/"
+      },
+      "source": {
+        "label": "PIB – Ministry of Textiles Year End Review 2025",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208051&reg=6&lang=1",
+        "date": "2025-12"
+      },
+      "kind": "sector",
+      "goals": [
+        "equity"
+      ],
+      "weight": 7,
+      "scope": "For technical-textile startups and innovators",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "teem",
+      "name": "Textile Expansion and Employment Scheme (part of Integrated Programme for Textiles)",
+      "abbr": "TEEM",
+      "agency": "Ministry of Textiles",
+      "cat": "Textiles",
+      "status": "announced, not launched",
+      "statusNote": "Announced in the Budget speech on 1 Feb 2026, and BE 2026-27 puts Rs 1,500 cr into the Integrated Textile Programme (TEEM, National Fibre Mission, Samarth 2.0 etc.); an expert committee was to frame the guidelines (Feb 2026), and no launch was found by Sep 2026.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Announced capital support for machinery in traditional textile clusters; Rs 1,500 cr umbrella, rates not notified",
+      "gets": [
+        "Capital support for machinery and technology upgradation, plus common testing and certification centres in traditional clusters (rates and eligibility not notified)"
+      ],
+      "checks": [
+        "Do not show as available until guidelines are notified",
+        "Effectively the successor to ATUFS (closed 2022); the PLI-textiles application window also closed on 31 Mar 2026"
+      ],
+      "extraFor": "",
+      "docs": "Not notified",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "13",
+        "14"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "Ministry of Textiles (await notification)",
+        "url": "https://www.texmin.gov.in/"
+      },
+      "source": {
+        "label": "PIB – Budget 2026-27 textile announcements",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221486&reg=6&lang=1",
+        "date": "2026-02-01"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "atufs",
+      "name": "Amended Technology Upgradation Fund Scheme",
+      "abbr": "ATUFS",
+      "agency": "Ministry of Textiles",
+      "cat": "Textiles",
+      "status": "closed 2022-03-31",
+      "statusNote": "ATUFS ended on 31 Mar 2022; BE 2026-27 carries only Rs 0.03 cr for legacy credit-linked capital subsidy claims.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Closed to new applicants since 31 March 2022; only legacy claims (Rs 0.03 cr BE 2026-27)",
+      "gets": [
+        "Nothing for new investments"
+      ],
+      "checks": [
+        "Do not show as available; see TEEM (announced) as the successor"
+      ],
+      "extraFor": "",
+      "docs": "",
+      "confidence": "high",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "13",
+        "14"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "Not open",
+        "url": ""
+      },
+      "source": {
+        "label": "Notes on Demands for Grants 2026-27, Ministry of Textiles",
+        "url": "https://www.indiabudget.gov.in/doc/eb/sbe98.pdf",
+        "date": "2026-02-01"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "nhdp-handloom",
+      "name": "National Handloom Development Programme",
+      "abbr": "NHDP",
+      "agency": "Office of the Development Commissioner (Handlooms), Ministry of Textiles",
+      "cat": "Handloom & handicrafts",
+      "status": "open, renewal pending",
+      "statusNote": "NHDP was approved for FY2021-22 to 2025-26 and BE 2026-27 gives it Rs 205 cr; a ~Rs 9,000 cr five-year successor was reported on 22 Sep 2026 to be awaiting Cabinet approval.",
+      "sizes": [
+        "micro",
+        "small"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "individual",
+        "shg",
+        "cooperative",
+        "producer company"
+      ],
+      "headline": "Looms, worksheds, design and marketing support for handloom weavers (looms historically 90% GoI-funded)",
+      "gets": [
+        "Looms and accessories (Hathkargha Samvardhan Sahayata) with a 90% GoI / 10% weaver share (2017-20 norms; current norm unconfirmed)",
+        "Individual worksheds: 100% GoI for BPL/SC/ST/women, 75% for others (2017-20 norms)",
+        "Travel/daily allowance for taking part in handloom expos and events",
+        "Concessional credit: see the Weaver MUDRA entry"
+      ],
+      "checks": [
+        "Must be a handloom weaver or weaver entrepreneur working on hand-operated looms",
+        "Delivered through State Handloom Departments/Weavers' Service Centres or cluster implementing agencies",
+        "Loom aid only for weavers trained in the last 2 years (2017-20 norms)"
+      ],
+      "extraFor": "SC/ST/BPL/women: 100% workshed funding (2017-20 norms); SC/ST and NE weavers paid for every expo",
+      "docs": "Handloom weaver ID; Aadhaar; bank account; loom details; caste/BPL certificate if claiming extras",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [
+        "13"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "State Handloom Department / Weavers' Service Centre",
+        "url": "https://myhandlooms.gov.in/"
+      },
+      "source": {
+        "label": "myhandlooms.gov.in – NHDP (period 2021-22 to 2025-26)",
+        "url": "https://myhandlooms.gov.in/Home/NHDP.aspx",
+        "date": "2026-09-29 (accessed)"
+      },
+      "kind": "sector",
+      "goals": [
+        "machinery",
+        "market"
+      ],
+      "weight": 7,
+      "scope": "For handloom weavers and their groups, not powerloom or mill units",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "weaver-mudra",
+      "name": "Concessional Credit for Handloom Weavers (Weaver MUDRA) – NHDP component",
+      "abbr": "Weaver MUDRA",
+      "agency": "Office of the Development Commissioner (Handlooms), Ministry of Textiles; banks",
+      "cat": "Handloom & handicrafts",
+      "status": "open, renewal pending",
+      "statusNote": "The component ran through 2025 (11,544 MUDRA loans per PIB Year End Review, Dec 2025); the parent NHDP period ended 31 Mar 2026 and its successor was awaiting Cabinet approval on 22 Sep 2026.",
+      "sizes": [
+        "micro",
+        "small"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "individual",
+        "shg",
+        "cooperative",
+        "producer company"
+      ],
+      "headline": "Handloom loans with 20% margin money, up to 7% interest subvention, guarantee fee (3 years; unconfirmed)",
+      "gets": [
+        "Margin money of 20% of the loan, capped at Rs 25,000 per weaver (unconfirmed for 2026)",
+        "Interest subvention up to 7% for 3 years (unconfirmed)",
+        "Credit guarantee fee reimbursed for 3 years (unconfirmed)"
+      ],
+      "checks": [
+        "Handloom weaver/weaver entrepreneur or handloom organisation borrowing from a bank under MUDRA",
+        "Parameters not re-checked against official 2021-26 guidelines"
+      ],
+      "extraFor": "",
+      "docs": "Handloom weaver ID; Aadhaar; bank account; loan application",
+      "confidence": "low",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [
+        "13"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "Through banks / Weavers' Service Centre",
+        "url": "https://myhandlooms.gov.in/"
+      },
+      "source": {
+        "label": "PIB – Textiles Year End Review 2025 (executive summary)",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2208040&reg=3&lang=1",
+        "date": "2025-12"
+      },
+      "kind": "sector",
+      "goals": [
+        "credit"
+      ],
+      "weight": 7,
+      "scope": "For handloom weavers and their groups, not powerloom or mill units",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "rmss",
+      "name": "Raw Material Supply Scheme (Yarn Supply Scheme)",
+      "abbr": "RMSS",
+      "agency": "Ministry of Textiles; National Handloom Development Corporation",
+      "cat": "Handloom & handicrafts",
+      "status": "open, renewal pending",
+      "statusNote": "The guidelines cover FY2021-22 to 2025-26; BE 2026-27 allocates Rs 200 cr, and 495 lakh kg of yarn went to 5.38 lakh weavers in 2025 (PIB Year End Review).",
+      "sizes": [
+        "micro",
+        "small"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "individual",
+        "shg",
+        "cooperative",
+        "producer company"
+      ],
+      "headline": "15% price subsidy on handloom yarn via DBT, plus freight reimbursement, through Yarn Passbook",
+      "gets": [
+        "15% price subsidy (DBT) on cotton hank yarn, domestic silk, wool, linen and natural-fibre blends, within monthly caps (e.g., 60 kg per loom for cotton hank up to 20s; 6 kg per loom for silk)",
+        "Freight reimbursement of about 1–10% depending on yarn and region"
+      ],
+      "checks": [
+        "Individual handloom weavers, SHGs/JLGs, cooperatives, handloom producer companies or weaver entrepreneurs who own working handlooms",
+        "Needs a verified Yarn Passbook"
+      ],
+      "extraFor": "Higher freight reimbursement in the North-East and hilly areas",
+      "docs": "Yarn Passbook; Aadhaar-linked bank account; loom verification",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [
+        "13"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "NHDC yarn depots / Yarn Passbook",
+        "url": "https://nhdc.org.in/en"
+      },
+      "source": {
+        "label": "NHDC – RMSS guidelines",
+        "url": "http://storage.nhdc.org.in/nhdc/public/RMSS/New_Guidelines_RMSS.pdf",
+        "date": "2021-22"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "scope": "For handloom weavers and their groups, not powerloom or mill units",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "nhdp-handicrafts",
+      "name": "National Handicraft Development Programme (incl. Ambedkar Hastshilp Vikas Yojana)",
+      "abbr": "NHDP (Handicrafts)",
+      "agency": "Office of the Development Commissioner (Handicrafts), Ministry of Textiles",
+      "cat": "Handloom & handicrafts",
+      "status": "open, renewal pending",
+      "statusNote": "The outlay was Rs 837 cr for FY2022-26 (PIB 9 Dec 2025) and BE 2026-27 gives Rs 205 cr; it is to be merged into the proposed National Handloom and Handicraft Programme, which awaited Cabinet approval in Sep 2026.",
+      "sizes": [
+        "micro",
+        "small"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "individual",
+        "shg",
+        "producer company"
+      ],
+      "headline": "Toolkits, stipend training, design workshops and marketing-event support for Pehchan-registered artisans (Rs 837 cr programme)",
+      "gets": [
+        "Improved toolkit distribution",
+        "Skill training (Guru Shishya, Comprehensive Skill Upgradation) with stipend",
+        "Design and technology development workshops",
+        "Participation in domestic/international marketing events",
+        "AHVY support to artisan collectives and producer companies",
+        "Insurance cover (e.g., PMJJBY)"
+      ],
+      "checks": [
+        "Handicraft artisan holding a Pehchan card",
+        "Group components (AHVY) are routed through implementing agencies",
+        "Per-unit amounts unconfirmed"
+      ],
+      "extraFor": "",
+      "docs": "Pehchan card; Aadhaar; bank account",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "1392",
+        "1393",
+        "1399",
+        "1512",
+        "1629",
+        "2393",
+        "2396",
+        "3211",
+        "3212",
+        "3240",
+        "3290"
+      ],
+      "apply": {
+        "label": "Office of DC (Handicrafts) / Handicrafts Service Centres",
+        "url": "https://handicrafts.nic.in/"
+      },
+      "source": {
+        "label": "PIB – Handicrafts at the heart of India's rural economy",
+        "url": "https://www.pib.gov.in/PressNoteDetails.aspx?NoteId=156396&ModuleId=3&reg=3&lang=2",
+        "date": "2025-12-09"
+      },
+      "kind": "sector",
+      "goals": [
+        "market"
+      ],
+      "weight": 7,
+      "scope": "For artisans registered under the Pehchan card",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "nhhp",
+      "name": "National Handloom and Handicraft Programme (proposed)",
+      "abbr": "NHHP",
+      "agency": "Ministry of Textiles",
+      "cat": "Handloom & handicrafts",
+      "status": "announced, not launched",
+      "statusNote": "Announced in the Budget on 1 Feb 2026 to merge existing handloom/handicraft schemes; reports on 22 Sep 2026 say a ~Rs 9,000 cr five-year package is awaiting Union Cabinet approval.",
+      "sizes": [
+        "micro",
+        "small"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Proposed ~Rs 9,000 crore five-year handloom and handicraft package awaiting Cabinet approval",
+      "gets": [
+        "Proposed: cluster infrastructure, affordable credit, design, market-linkage and export support for weavers and artisans (not notified)"
+      ],
+      "checks": [
+        "Not yet available; likely to replace NHDP (handloom), NHDP (handicrafts) and related schemes"
+      ],
+      "extraFor": "",
+      "docs": "Not notified",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [
+        "13"
+      ],
+      "nic4": [
+        "1392",
+        "1393",
+        "1399",
+        "1512",
+        "1629",
+        "2393",
+        "2396",
+        "3211",
+        "3212",
+        "3240",
+        "3290"
+      ],
+      "apply": {
+        "label": "Not open",
+        "url": ""
+      },
+      "source": {
+        "label": "PIB – Budget 2026-27 textile announcements",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221486&reg=6&lang=1",
+        "date": "2026-02-01"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "1 Oct 2026"
+    },
+    {
+      "id": "ifldp",
+      "name": "Indian Footwear and Leather Development Programme (BE 2026-27 head: Footwear, Leather and Accessories Development Programme)",
+      "abbr": "IFLDP / FLADP",
+      "agency": "DPIIT, Ministry of Commerce & Industry",
+      "cat": "Leather & footwear",
+      "status": "open, renewal pending",
+      "statusNote": "The Cabinet approved IFLDP till 31 Mar 2026 (PIB 5 Feb 2022); BE 2026-27 funds a 'Footwear, Leather and Accessories Development Programme' at Rs 300 cr, but its 2026-31 approval and whether IDLS applications are open are unconfirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "30% capital subsidy (MSMEs) on leather/footwear plant and machinery, up to Rs 15 crore per product line",
+      "gets": [
+        "IDLS: 30% of plant & machinery cost for MSMEs and 20% for other units, for modernisation, capacity expansion or technology upgradation (investment on or after 1 Jan 2020)",
+        "Cap of Rs 15 crore per product line",
+        "Group sub-schemes: CETPs (70–80% aid), mega leather clusters (50–70%), brand promotion, design studios"
+      ],
+      "checks": [
+        "Leather, footwear or accessories manufacturing unit",
+        "Apply through the National Single Window System",
+        "Group sub-schemes need an SPV or state agency"
+      ],
+      "extraFor": "North-East: 40% (MSMEs) / 30% (others), plus an extra 5% for domestically made machinery",
+      "docs": "Udyam (for MSME rate); project report; machinery invoices; CA certificate; NSWS registration",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "15"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "National Single Window System",
+        "url": "https://www.nsws.gov.in/"
+      },
+      "source": {
+        "label": "PIB – IFLDP approved with Rs 1,700 crore",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1795797&reg=3&lang=2",
+        "date": "2022-02-05"
+      },
+      "kind": "sector",
+      "goals": [
+        "machinery"
+      ],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "footwear-leather-focus",
+      "name": "Focus Product Scheme for Footwear and Leather Sectors (Budget 2025-26; BE head 'PLI Scheme for Footwear and Leather Sector')",
+      "abbr": "Footwear & Leather Scheme",
+      "agency": "DPIIT, Ministry of Commerce & Industry",
+      "cat": "Leather & footwear",
+      "status": "announced, not launched",
+      "statusNote": "Announced on 1 Feb 2025; BE 2026-27 shows only a token Rs 0.01 cr for 'PLI Scheme for Footwear and Leather Sector', and no Cabinet approval was found in PRS monthly reviews through Aug 2026.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Budget 2025 footwear/leather focus scheme (22 lakh jobs target) still not launched; token budget only",
+      "gets": [
+        "Planned support for design capacity, component manufacturing and machinery for leather and non-leather footwear (not notified)"
+      ],
+      "checks": [
+        "Not yet available"
+      ],
+      "extraFor": "",
+      "docs": "Not notified",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "15"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "Not open",
+        "url": ""
+      },
+      "source": {
+        "label": "PIB – Budget 2025-26 announcement",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2098392&reg=48&lang=2",
+        "date": "2025-02-01"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "kvic-kvy",
+      "name": "Khadi Vikas Yojana (under Khadi Gramodyog Vikas Yojana)",
+      "abbr": "KVY",
+      "agency": "Khadi and Village Industries Commission, Ministry of MSME",
+      "cat": "Khadi & village industries",
+      "status": "open, renewal pending",
+      "statusNote": "BE 2026-27 allocates Rs 581.28 cr to KVY (Rs 1,094.51 cr to KGVY overall); benefits are as per the MSME Scheme Booklet 2025-26, and formal 2026-31 continuation is not confirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "society",
+        "trust",
+        "cooperative"
+      ],
+      "headline": "Khadi institutions: 35% MMDA subsidy, 4% effective interest on bank credit, Rs 1.2 lakh workshed aid",
+      "gets": [
+        "MMDA: 35% of prime cost for cotton/muslin, wool and polyvastra khadi; 20% for silk khadi",
+        "ISEC: the institution pays only 4% interest and KVIC bears the rest of the bank rate",
+        "Workshed for artisans: Rs 1.2 lakh or 75% of cost (individual); Rs 80,000 or 75% (group)",
+        "Revival of weak khadi institutions: up to Rs 15 lakh"
+      ],
+      "checks": [
+        "Only Khadi Institutions registered with KVIC or a State KVIB (Khadi certified)"
+      ],
+      "extraFor": "North-East: workshed support at 90% of cost",
+      "docs": "KVIC/KVIB registration and Khadi certificate; audited accounts; artisan list; bank credit details (for ISEC)",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [
+        "13",
+        "14"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "KVIC online portal",
+        "url": "http://www.kviconline.gov.in"
+      },
+      "source": {
+        "label": "MSME Scheme Booklet 2025-26 (DC-MSME)",
+        "url": "https://www.dcmsme.gov.in/ebook/MSMESchemebooklet2025-26.pdf",
+        "date": "2025-26"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "hideIfNo": true,
+      "scope": "For registered khadi institutions",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "kvic-gvy",
+      "name": "Gramodyog Vikas Yojana (under Khadi Gramodyog Vikas Yojana)",
+      "abbr": "GVY",
+      "agency": "Khadi and Village Industries Commission, Ministry of MSME",
+      "cat": "Khadi & village industries",
+      "status": "open, renewal pending",
+      "statusNote": "BE 2026-27 allocates Rs 87.13 cr to GVY; programme content is per the MSME Scheme Booklet 2025-26, and formal 2026-31 continuation is not confirmed.",
+      "sizes": [
+        "micro"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "individual"
+      ],
+      "headline": "Training plus machines/toolkits (e.g., 10 bee boxes, electric potter wheel) for village artisans",
+      "gets": [
+        "Honey Mission: training plus 10 bee boxes with live colonies and a toolkit",
+        "Pottery: training plus an electric potter wheel and blunger",
+        "Agarbatti: training plus pedal/automatic agarbatti machines",
+        "Footwear: training plus machinery and toolkits",
+        "Wood craft/wooden toys: training plus a toolkit"
+      ],
+      "checks": [
+        "Individual aged 18–55 with Aadhaar",
+        "One person per family",
+        "NIC mapping is indicative; selection happens in KVIC programme locations"
+      ],
+      "extraFor": "",
+      "docs": "Aadhaar; age proof; bank account",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [],
+      "nic4": [
+        "0149",
+        "1520",
+        "1629",
+        "2029",
+        "2393",
+        "3240",
+        "3290"
+      ],
+      "apply": {
+        "label": "KVIC online portal",
+        "url": "http://www.kviconline.gov.in"
+      },
+      "source": {
+        "label": "MSME Scheme Booklet 2025-26 (DC-MSME)",
+        "url": "https://www.dcmsme.gov.in/ebook/MSMESchemebooklet2025-26.pdf",
+        "date": "2025-26"
+      },
+      "kind": "sector",
+      "goals": [
+        "machinery"
+      ],
+      "weight": 7,
+      "scope": "For village artisans in rural areas",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "coir-cvy",
+      "name": "Coir Vikas Yojana",
+      "abbr": "CVY",
+      "agency": "Coir Board, Ministry of MSME",
+      "cat": "Khadi & village industries",
+      "status": "open, renewal pending",
+      "statusNote": "BE 2026-27 allocates Rs 106 cr; components are per the MSME Scheme Booklet 2025-26, and formal 2026-31 continuation is not confirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Coir Board umbrella (Rs 106 cr BE 2026-27): stipend training, Mahila Coir Yojana, export/market assistance",
+      "gets": [
+        "Stipend-paid skill-upgradation training and entrepreneurship programmes",
+        "Mahila Coir Yojana: training with stipend for rural women artisans",
+        "Export Market Promotion: help to take part in international fairs (EMDA/International Co-operation)",
+        "Domestic Market Promotion: Market Development Assistance to coir cooperatives; domestic fairs",
+        "R&D and testing support"
+      ],
+      "checks": [
+        "Coir production/processing unit registered with the Coir Board and holding Udyam",
+        "Amounts per component unconfirmed"
+      ],
+      "extraFor": "Women: Mahila Coir Yojana",
+      "docs": "Coir Board registration; Udyam; bank account; event/export documents",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": false,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Coir Board",
+        "url": "http://coirboard.gov.in"
+      },
+      "source": {
+        "label": "MSME Scheme Booklet 2025-26 (DC-MSME)",
+        "url": "https://www.dcmsme.gov.in/ebook/MSMESchemebooklet2025-26.pdf",
+        "date": "2025-26"
+      },
+      "kind": "sector",
+      "goals": [
+        "market",
+        "exports"
+      ],
+      "weight": 7,
+      "nic5": [
+        "13935",
+        "13943"
+      ],
+      "scope": "For coir units, artisans and exporters",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "sfurti",
+      "name": "Scheme of Fund for Regeneration of Traditional Industries",
+      "abbr": "SFURTI",
+      "agency": "Ministry of MSME (with KVIC, Coir Board and nodal agencies)",
+      "cat": "Clusters",
+      "status": "open, renewal pending",
+      "statusNote": "BE 2026-27 allocates Rs 197.49 cr; parameters are per the MSME Scheme Booklet 2025-26, and formal 2026-31 continuation is not confirmed.",
+      "sizes": [
+        "micro",
+        "small"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "spv"
+      ],
+      "headline": "Cluster grant up to Rs 5 crore (90–95% GoI) for artisan SPVs in traditional industries",
+      "gets": [
+        "Up to Rs 2.5 crore per cluster of up to 500 artisans; Rs 5 crore for more than 500 artisans",
+        "GoI funds up to 90% of hard interventions (common facility centres, raw-material banks etc.)"
+      ],
+      "checks": [
+        "Artisans organised into an SPV by an Implementing Agency (state/central body or NGO)",
+        "Traditional sectors: handicraft, textile, agro-processing, bamboo, honey, coir, khadi etc."
+      ],
+      "extraFor": "NER, J&K and hill areas: up to 95% GoI share (5% Implementing Agency share)",
+      "docs": "DPR; SPV registration; artisan list; implementing and technical agency details",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": true,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "SFURTI portal",
+        "url": "https://sfurti.msme.gov.in/SFURTI/Home.aspx"
+      },
+      "source": {
+        "label": "MSME Scheme Booklet 2025-26 (DC-MSME)",
+        "url": "https://www.dcmsme.gov.in/ebook/MSMESchemebooklet2025-26.pdf",
+        "date": "2025-26"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "mse-cdp",
+      "name": "Micro & Small Enterprises – Cluster Development Programme",
+      "abbr": "MSE-CDP",
+      "agency": "Office of DC (MSME), Ministry of MSME",
+      "cat": "Clusters",
+      "status": "open, renewal pending",
+      "statusNote": "BE 2026-27 allocates Rs 410 cr and the online application portal is live; formal 2026-31 continuation is not confirmed.",
+      "sizes": [
+        "micro",
+        "small"
+      ],
+      "activities": [
+        "manufacturing",
+        "services"
+      ],
+      "orgTypes": [
+        "section 8 company",
+        "producer company"
+      ],
+      "headline": "Common facility centre grant 60–80% of Rs 5–30 crore projects for MSE cluster SPVs",
+      "gets": [
+        "CFC: 70% GoI grant for Rs 5–10 cr projects and 60% for Rs 10–30 cr (eligible cost capped at Rs 30 cr)",
+        "Infrastructure (via state agencies): 60% for new estates (Rs 5–15 cr), 50% for upgradation (Rs 5–10 cr)"
+      ],
+      "checks": [
+        "SPV registered as a Section 8 company (FPO/FPC allowed; Sikkim may use society/co-op) with at least 10 MSE members (projects under Rs 10 cr) or 20 (over Rs 10 cr)",
+        "No member may hold over 10% equity; the SPV contributes 10–20% of cost",
+        "Proposal is routed through the state government; the project must be completed within 18 months"
+      ],
+      "extraFor": "NE/hill states, islands, aspirational/LWE districts and clusters with over 50% micro/women/SC/ST units: CFC grant 80% (Rs 5–10 cr) / 70% (Rs 10–30 cr), infrastructure 70%/60%; lower SPV share in NER",
+      "docs": "DPR; appraisal report; SPV registration; registered land documents; state-level committee recommendation; geo-tagging",
+      "confidence": "high",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": true,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "MSE-CDP online portal",
+        "url": "https://cluster.dcmsme.gov.in/"
+      },
+      "source": {
+        "label": "DC-MSME – MSE-CDP guidelines and FAQs",
+        "url": "https://www.dcmsme.gov.in/schemes/New-Guidelines.pdf",
+        "date": "2026-09-29 (accessed)"
+      },
+      "kind": "sector",
+      "goals": [],
+      "weight": 7,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "ecms-segment-d",
+      "name": "Electronics Component Manufacturing Scheme – Segment D (supply-chain sub-assemblies/components and capital equipment)",
+      "abbr": "ECMS",
+      "agency": "Ministry of Electronics & IT",
+      "cat": "Other sector",
+      "status": "closing 2027-04-30",
+      "statusNote": "Per the ECMS portal, windows for segments A, B, C and E closed on 30 Sep 2025, while Segment D stays open to 30 Apr 2027 (six-year scheme, Rs 22,919 cr).",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "25% capex incentive for electronics sub-assembly/component supply chain and capital equipment makers; window to April 2027",
+      "gets": [
+        "Capex-linked incentive of 25% of eligible capital expenditure, paid over up to 5 years"
+      ],
+      "checks": [
+        "New or existing unit making inputs for display/camera modules, passive components, PCBs, Li-ion cells etc., or capital equipment used in electronics manufacturing",
+        "Must meet minimum investment, sales and employment thresholds (Segment D values unconfirmed)",
+        "Screened by a project management agency and approved by an inter-ministerial council"
+      ],
+      "extraFor": "",
+      "docs": "Company registration; project report with investment plan; financials; employment plan",
+      "confidence": "medium",
+      "needs": null,
+      "maxAgeYears": null,
+      "groupOnly": false,
+      "newOrExpansion": true,
+      "states": [],
+      "nic2": [
+        "26",
+        "27",
+        "28"
+      ],
+      "nic4": [],
+      "apply": {
+        "label": "ECMS portal",
+        "url": "https://ecms.meity.gov.in/"
+      },
+      "source": {
+        "label": "ECMS portal (MeitY)",
+        "url": "https://ecms.meity.gov.in/",
+        "date": "2026-09-29 (accessed)"
+      },
+      "kind": "sector",
+      "goals": [
+        "machinery"
+      ],
+      "weight": 7,
+      "scope": "For makers of listed electronic sub-assemblies, components or capital equipment",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "epcg",
+      "name": "Export Promotion Capital Goods Scheme",
+      "abbr": "EPCG",
+      "agency": "DGFT, Ministry of Commerce & Industry",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Continues under FTP 2023 with no end date; DGFT Public Notice 51/2025-26 (6 Mar 2026) auto-extended EOs expiring 1 Mar–31 May 2026 to 31 Aug 2026 without composition fee, and Trade Notice 21/2026-27 (21 Aug 2026) automated committee-approved EO extensions.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Import capital goods at zero customs duty against exports worth 6x duty saved within 6 years",
+      "gets": [
+        "Zero basic customs duty on capital goods incl. spares, moulds, dies, jigs, tools and refractories for pre-production, production and post-production",
+        "IGST and compensation cess on EPCG imports also exempted as provided in the CBIC notification",
+        "Domestic sourcing option with specific export obligation (EO) 25% lower",
+        "Specific EO = 6x duties/taxes saved, over 6 years, at least 50% in years 1–4",
+        "EO cut to 75% for listed green-technology products; units in NE states, J&K and Ladakh need only 25% of normal EO",
+        "Common Service Providers in Towns of Export Excellence or PM MITRA parks can hold EPCG"
+      ],
+      "checks": [
+        "Average EO (average of preceding 3 years' exports of similar goods) must also be maintained, except in agriculture, aquaculture, dairy, animal husbandry and similar sectors",
+        "Only one EO-reduction benefit applies per authorisation",
+        "Merchant exporters qualify only when tied to a supporting manufacturer; service providers are eligible",
+        "Shortfall means repaying duty saved with interest; extending EO beyond 6 years costs a 2% composition fee (minimum ₹10,000)",
+        "Policy Circular 10/2025-26 (26 Feb 2026) proportionately reduced 2024-25 average EO for product groups whose exports fell more than 5%",
+        "Authorisation is non-transferable; import validity 18 months"
+      ],
+      "extraFor": null,
+      "docs": "ANF 5A online; IEC; RCMC; DSC; Chartered Engineer certificate (Appendix 5A); CA/CMA certificate (Appendix 5B); Udyam/IEM proof; installation certificate after import; export proofs for EODC",
+      "confidence": "high",
+      "needs": "IEC; RCMC from the relevant Export Promotion Council; DGFT login with DSC; Chartered Engineer and CA certificates; a realistic plan to export 6x the duty saved on top of current average exports",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "DGFT portal – EPCG (ANF 5A)",
+        "url": "https://www.dgft.gov.in/CP/?opt=epcg"
+      },
+      "source": {
+        "label": "FTP 2023 Chapter 5 (DGFT)",
+        "url": "https://content.dgft.gov.in/Website/dgftprod/9f6336a2-e03d-4dbb-86eb-305615f0db13/FTP2023_Chapter05.pdf",
+        "date": "2023-04-01"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports",
+        "machinery"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "advance-authorisation",
+      "name": "Advance Authorisation Scheme",
+      "abbr": "AA",
+      "agency": "DGFT, Ministry of Commerce & Industry",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Continues under FTP 2023; DGFT Public Notice 07/2026-27 (5 May 2026) extended validity of Norms-Committee ad-hoc norms to 31 Mar 2028, and Trade Notice 26/2026-27 (7 Sep 2026) proposes suspending 544 unused SIONs.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Duty-free import of inputs for export production; minimum 15% value addition, 18-month export obligation",
+      "gets": [
+        "Exemption from basic customs duty, additional duties, anti-dumping and safeguard duties on inputs physically incorporated in the export product, plus fuel, oil and catalysts consumed",
+        "IGST and compensation cess exemption on AA imports as per the CBIC notification (pre-import condition may apply)",
+        "AA exports currently also earn RoDTEP at Appendix 4RE rates (valid to 31 Dec 2026)",
+        "Ad-hoc norms ratified by Norms Committees can be reused by other applicants until 31 Mar 2028"
+      ],
+      "checks": [
+        "Minimum value addition generally 15% and EO period generally 18 months from issue (per secondary sources)",
+        "EOs expiring 1 Mar–31 May 2026 were auto-extended to 31 Aug 2026 without fee (PN 51/2025-26)",
+        "Merchant exporters need a supporting manufacturer; Actual User condition applies",
+        "All Industry Rate drawback is generally not available on exports made under AA",
+        "Gold replenishment route removed for gems and jewellery (PN 28/2025-26, 23 Oct 2025)"
+      ],
+      "extraFor": null,
+      "docs": "ANF 4A online; IEC; RCMC; DSC; GST registration; norms/SION details; later shipping bills, bills of entry and eBRCs for EODC",
+      "confidence": "medium",
+      "needs": "IEC; RCMC; DGFT login with DSC; input-output norms for the export product (SION, ad-hoc or self-declared); physical exports within the EO period",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "DGFT portal – Advance Authorisation (ANF 4A)",
+        "url": "https://www.dgft.gov.in/CP/?opt=adnavce-authorisation"
+      },
+      "source": {
+        "label": "PIB – DGFT extends EO period for AA and EPCG authorisations",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2236414",
+        "date": "2026-03-06"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "rodtep",
+      "name": "Remission of Duties and Taxes on Exported Products",
+      "abbr": "RoDTEP",
+      "agency": "DGFT (rates) with CBIC/ICEGATE (credit)",
+      "cat": "Exports",
+      "status": "open, renewal pending",
+      "statusNote": "DGFT Notification 41/2026-27 (30 Sep 2026) continued RoDTEP to 31 Dec 2026 at unchanged rates for exports from DTA, AA, SEZ and EOU units; a longer renewal has not been notified yet.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Transferable duty-credit e-scrips of roughly 0.3–3.9% of FOB on eligible goods exports",
+      "gets": [
+        "Rebate at the notified % of FOB per 8-digit tariff line, subject to per-unit value caps (Appendix 4R for DTA; Appendix 4RE for AA, SEZ and EOU exports)",
+        "Credit issued as an e-scrip in the ICEGATE ledger, usable for basic customs duty or sellable",
+        "CBIC Instruction 05/2026-Customs (23 Apr 2026) requires RoDTEP scrolls within 72 hours"
+      ],
+      "checks": [
+        "Goods only – services are not covered",
+        "Excluded: re-export of imported goods, trans-shipment, goods under minimum export price or export duty, restricted or prohibited items, deemed exports, DTA supplies to SEZ, goods made in customs-bonded warehouses or under job-work notification 32/1997, non-EDI exports",
+        "Rates were halved from 23 Feb 2026 (Notif. 60/2025-26) and restored from 23 Mar 2026 (Notif. 66/2025-26) – rates may change on renewal",
+        "Annual RoDTEP return needed if credit exceeds ₹1 crore in a year",
+        "Shipments after 31 Dec 2026 earn RoDTEP only if the scheme is extended again"
+      ],
+      "extraFor": null,
+      "docs": "Shipping bill with RoDTEP declaration; ICEGATE login with DSC; eBRC or realisation proof; RCMC where required",
+      "confidence": "high",
+      "needs": "IEC; ICEGATE registration with DSC, AD code and bank account; RoDTEP claim declared in each shipping bill; export proceeds realised; RCMC where FTP para 2.57 requires it",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Declare RoDTEP in shipping bill; manage e-scrips on ICEGATE",
+        "url": "https://www.icegate.gov.in/"
+      },
+      "source": {
+        "label": "The Tribune, 30 Sep 2026 – RoDTEP extended to 31 Dec 2026 (DGFT Notification 41/2026-27)",
+        "url": "https://www.tribuneindia.com/news/business/centre-extends-duty-refund-scheme-rodtep-for-exporters-by-three-months",
+        "date": "2026-09-30"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "1 Oct 2026"
+    },
+    {
+      "id": "duty-drawback",
+      "name": "Duty Drawback (All Industry Rate / Brand Rate)",
+      "abbr": "DBK",
+      "agency": "CBIC, Ministry of Finance",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Permanent statutory refund under sections 74/75 of the Customs Act, 1962 and the Drawback Rules, 2017; the number and date of the latest All Industry Rate schedule is unconfirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Refund of customs duty on imported inputs at All Industry Rates, credited straight to bank",
+      "gets": [
+        "All Industry Rate (AIR) drawback as % of FOB (with caps) per tariff item, auto-credited to the registered bank account for EDI shipping bills",
+        "Brand rate fixed for your product where no AIR exists or AIR is below 80% of duties actually paid",
+        "Section 74 drawback of up to 98% of duty when imported goods are re-exported unused"
+      ],
+      "checks": [
+        "Not available where inputs were imported duty-free (AA, EOU, SEZ)",
+        "Can be claimed alongside RoDTEP or RoSCTL on the same shipment",
+        "Recovered if export proceeds are not realised in time"
+      ],
+      "extraFor": null,
+      "docs": "Shipping bill with drawback serial number; invoice and packing list; for brand rate, application with input-output data and duty-paid import documents",
+      "confidence": "medium",
+      "needs": "IEC; AD code and bank account registered with Customs; drawback claimed in the shipping bill; export proceeds realised",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Claim in shipping bill via ICEGATE",
+        "url": "https://www.icegate.gov.in/"
+      },
+      "source": {
+        "label": "CBIC – Customs Act s.74/75 and Drawback Rules 2017",
+        "url": "https://www.cbic.gov.in/",
+        "date": "unconfirmed"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "rosctl",
+      "name": "Rebate of State and Central Taxes and Levies (apparel and made-ups)",
+      "abbr": "RoSCTL",
+      "agency": "Ministry of Textiles with DGFT/CBIC",
+      "cat": "Exports",
+      "status": "open, renewal pending",
+      "statusNote": "The Ministry of Textiles extended RoSCTL on 30 Sep 2026 to cover exports from 1 Oct to 31 Dec 2026 at existing rates and guidelines; a longer renewal has not been announced yet.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Transferable e-scrips rebating embedded state and central taxes on Chapter 61–63 apparel and made-ups",
+      "gets": [
+        "Rebate at the notified RoSCTL schedule rates (with value caps) on FOB of Ch. 61/62/63 exports",
+        "Issued as transferable duty-credit e-scrips on ICEGATE",
+        "Textile products outside Ch. 61–63 get RoDTEP instead"
+      ],
+      "checks": [
+        "NIC hint: division 14 (wearing apparel) or class 1392 (made-up textile articles)",
+        "RoDTEP cannot be claimed on RoSCTL-covered goods",
+        "Shipments after 31 Dec 2026 covered only if extended again"
+      ],
+      "extraFor": null,
+      "docs": "Shipping bill with RoSCTL declaration; ICEGATE login with DSC; realisation proof",
+      "confidence": "high",
+      "needs": "IEC; exports of apparel/garments (HS Ch. 61, 62) or made-ups (Ch. 63); RoSCTL declared in the shipping bill; ICEGATE registration",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [
+        "14"
+      ],
+      "nic4": [
+        "1392"
+      ],
+      "apply": {
+        "label": "Declare RoSCTL in shipping bill; e-scrips on ICEGATE",
+        "url": "https://www.icegate.gov.in/"
+      },
+      "source": {
+        "label": "Deccan Herald, 30 Sep 2026 – RoSCTL extended to 31 Dec 2026",
+        "url": "https://www.deccanherald.com/india/ministry-of-textiles-extends-rosctl-scheme-for-apparel-made-ups-exports-by-3-months-4165946",
+        "date": "2026-09-30"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "1 Oct 2026"
+    },
+    {
+      "id": "epm-export-factoring",
+      "name": "Export Factoring Support (EPM – Niryat Protsahan)",
+      "abbr": "EPM export factoring",
+      "agency": "Department of Commerce / DGFT",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Launched on a pilot basis by DGFT Trade Notice 25/2025-26 (20 Feb 2026) and confirmed as newly launched in PIB (24 Feb 2026).",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "2.75% subvention on export factoring cost, up to ₹50 lakh per IEC per year",
+      "gets": [
+        "2.75% interest subvention on factoring cost, in INR or foreign currency",
+        "Cap of ₹50 lakh per IEC per financial year"
+      ],
+      "checks": [
+        "MSMEs with IEC and Udyam only",
+        "Deemed exports and SEZ supplies ineligible",
+        "Pilot scheme"
+      ],
+      "extraFor": null,
+      "docs": "IEC; Udyam; factoring agreement; export invoices and shipping bills; UIN",
+      "confidence": "high",
+      "needs": "IEC; export receivables factored (recourse or non-recourse) with an RBI- or IFSCA-regulated factor; product in the 4,139-line positive list; DGFT UIN",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "DGFT portal – Export Promotion Mission",
+        "url": "https://www.dgft.gov.in/CP/?opt=export-promotion-mission"
+      },
+      "source": {
+        "label": "PIB – EPM: integrated pathway for MSMEs",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2232079",
+        "date": "2026-02-24"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports",
+        "payments",
+        "credit"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "epm-ecommerce-credit",
+      "name": "E-Commerce Export Credit Assistance (EPM – Niryat Protsahan)",
+      "abbr": "EPM e-commerce credit",
+      "agency": "DGFT with Exim Bank and NCGTC",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Launched on a pilot basis by DGFT Trade Notice 31/2025-26 (6 Mar 2026); PIB (24 Feb 2026) gives the guarantee and subvention limits.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Guaranteed e-commerce export credit: ₹50 lakh direct or ₹5 crore overseas-inventory, with 2.75% subvention",
+      "gets": [
+        "Direct e-commerce credit up to ₹50 lakh with 90% guarantee to the lender",
+        "Overseas-inventory credit up to ₹5 crore with 75% guarantee",
+        "2.75% interest subvention, capped at ₹15 lakh per beneficiary per year"
+      ],
+      "checks": [
+        "MSMEs (Udyam) only",
+        "Needs a 6-month e-commerce export track record",
+        "Pilot; lender participation varies"
+      ],
+      "extraFor": null,
+      "docs": "IEC; Udyam; CA-certified financials; e-commerce export records; UIN",
+      "confidence": "high",
+      "needs": "IEC; at least 6 months of cross-border e-commerce exports (postal/courier or overseas inventory); CA-certified financials; DGFT UIN; a participating lender",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "DGFT portal – intent and UIN, then lender",
+        "url": "https://www.dgft.gov.in/CP/?opt=export-promotion-mission"
+      },
+      "source": {
+        "label": "PIB – EPM: integrated pathway for MSMEs",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2232079",
+        "date": "2026-02-24"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports",
+        "credit",
+        "market"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "epm-emerging-markets",
+      "name": "Support for Emerging Export Opportunities (EPM – Niryat Protsahan)",
+      "abbr": "EPM emerging markets",
+      "agency": "DGFT with Exim Bank and NCGTC",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Launched on a pilot basis by DGFT Trade Notice 32/2025-26 (6 Mar 2026); PIB (24 Feb 2026) states risk-sharing of 10–90% of transaction value.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Exim Bank risk-sharing of 10–90% of transaction value for exports to under-served markets",
+      "gets": [
+        "Risk-sharing guarantee of 10%–90% of transaction value",
+        "Support for LC confirmation, negotiation, SBLC and non-recourse trade finance via partner banks"
+      ],
+      "checks": [
+        "MSMEs with IEC and Udyam",
+        "Prohibited goods excluded",
+        "Pilot scheme; Exim Bank due diligence applies"
+      ],
+      "extraFor": null,
+      "docs": "IEC; Udyam; export contract or LC; buyer details; UIN",
+      "confidence": "high",
+      "needs": "IEC not on the Denied Entity List; an export deal to an under-served market (parts of Africa, Asia, Latin America, Europe/CIS); partner bank; DGFT UIN",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "DGFT portal – intent and UIN, then partner bank",
+        "url": "https://www.dgft.gov.in/CP/?opt=export-promotion-mission"
+      },
+      "source": {
+        "label": "PIB – EPM: integrated pathway for MSMEs",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2232079",
+        "date": "2026-02-24"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "epm-trace",
+      "name": "TRACE – Trade Regulations, Accreditation & Compliance Enablement (EPM – Niryat Disha)",
+      "abbr": "TRACE",
+      "agency": "Department of Commerce / DGFT",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Launched Feb 2026 (PIB 24 Feb 2026) and revised by DGFT Trade Notice 09/2026-27 dated 1 Jul 2026 (as summarised by TaxGuru).",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Reimburses export certification costs: up to 95% for micro/small, 80% for medium, ₹50 lakh cap",
+      "gets": [
+        "Reimbursement of testing, inspection and certification costs (net of taxes) needed for export markets",
+        "Up to 95% for micro and small, up to 80% for medium enterprises (revised July 2026)",
+        "Cap of ₹50 lakh per IEC per financial year",
+        "Paid in two instalments: 50% on certification, 50% on evidence of linked exports"
+      ],
+      "checks": [
+        "File an Intent-to-Claim first, then the Reimbursement Claim",
+        "First instalment is recovered if no linked exports within 2 years",
+        "Earlier PIB terms (60–75%, ₹25 lakh cap) were superseded by TN 09/2026-27"
+      ],
+      "extraFor": null,
+      "docs": "IEC; Udyam; certification invoices and payment proof; certificate; later shipping bills",
+      "confidence": "medium",
+      "needs": "IEC; a testing, inspection or certification from the notified list of 462 eligible items; exports linked to that certification within 2 years",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "trade.gov.in – Niryat Disha (TRACE)",
+        "url": "https://www.trade.gov.in/"
+      },
+      "source": {
+        "label": "DGFT Trade Notice 09/2026-27 (via TaxGuru)",
+        "url": "https://taxguru.in/dgft/dgft-revises-trace-guidelines-increase-msme-reimbursement-rs-50-lakh.html",
+        "date": "2026-07-01"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports",
+        "quality"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "epm-lift",
+      "name": "LIFT – Logistics Interventions for Freight & Transport (EPM – Niryat Disha)",
+      "abbr": "LIFT",
+      "agency": "Department of Commerce / DGFT",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Launched 20 Feb 2026 under the Export Promotion Mission and listed by PIB (24 Feb 2026) as newly launched for exporters in low export-intensity districts.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Up to 30% inland-freight reimbursement, ₹20 lakh a year, for exporters in notified remote districts",
+      "gets": [
+        "Reimbursement of up to 30% of eligible freight cost (freight counted up to 20% of FOB)",
+        "Cap of ₹20 lakh per IEC per financial year"
+      ],
+      "checks": [
+        "State filter (per TaxGuru summary of the DGFT notice): all districts of Assam, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim and Tripura; only notified districts of J&K, Himachal Pradesh, Uttarakhand and Bihar",
+        "MSMEs with Udyam only",
+        "Intent-to-Claim must be filed before arranging transport; reimbursement claim within 6 months"
+      ],
+      "extraFor": null,
+      "docs": "IEC; Udyam; transport invoices and payment proof; shipping bill; e-way bill",
+      "confidence": "medium",
+      "needs": "IEC; unit located in a notified district; product on the eligible list; inland haul of at least 200 km to a port, ICD or air cargo complex; transport invoices and e-way bills",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [
+        "Arunachal Pradesh",
+        "Assam",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Sikkim",
+        "Tripura",
+        "Jammu and Kashmir",
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Bihar"
+      ],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "trade.gov.in – Niryat Disha (LIFT)",
+        "url": "https://www.trade.gov.in/"
+      },
+      "source": {
+        "label": "PIB – EPM: integrated pathway for MSMEs",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2232079",
+        "date": "2026-02-24"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "scope": "All districts of the North-East qualify; in J&K, Himachal Pradesh, Uttarakhand and Bihar only notified districts do",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "epm-mas",
+      "name": "Market Access Support (EPM – Niryat Disha), successor to the Market Access Initiative",
+      "abbr": "MAS",
+      "agency": "Department of Commerce / DGFT",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "PIB (24 Feb 2026) lists MAS as already operational under the Export Promotion Mission, which consolidated earlier market-access initiatives, with ₹118.65 crore of arrears approved and 34 events sanctioned.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Event support up to ₹5 crore (₹10 crore reverse BSMs); airfare support for MSME participants",
+      "gets": [
+        "Organisers get up to ₹5 crore per buyer-seller meet, trade fair or delegation, and up to ₹10 crore per reverse buyer-seller meet",
+        "Airfare support for MSMEs taking part in eligible market-access activities",
+        "Preferential support for priority sectors"
+      ],
+      "checks": [
+        "Individual MSMEs join approved events rather than apply for event grants directly",
+        "Recognised associations in Towns of Export Excellence historically got priority under MAI (carry-over unconfirmed)"
+      ],
+      "extraFor": null,
+      "docs": "IEC; Udyam; event registration with organiser; travel and participation proofs",
+      "confidence": "medium",
+      "needs": "Participation in an approved event through an organiser (EPC, commodity board, industry association or government agency); IEC",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "trade.gov.in – Niryat Disha (via event organiser)",
+        "url": "https://www.trade.gov.in/"
+      },
+      "source": {
+        "label": "PIB – EPM: integrated pathway for MSMEs",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2232079",
+        "date": "2026-02-24"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports",
+        "market"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "scope": "You join an approved event through its organiser rather than apply directly",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "epm-flow",
+      "name": "FLOW – Overseas Warehousing, Fulfilment & E-Commerce Export Hubs (EPM – Niryat Disha)",
+      "abbr": "FLOW",
+      "agency": "Department of Commerce / DGFT",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Launched on a pilot basis by DGFT Trade Notice 28/2025-26 (20 Feb 2026); proposal-based through trade.gov.in per PIB (24 Feb 2026).",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "30% of project cost for overseas warehouses and e-commerce export hubs, up to ₹10 crore",
+      "gets": [
+        "Overseas warehousing: lower of ₹10 crore or 30% of project cost",
+        "Fulfilment arrangements: lower of ₹5 lakh a month or 30%",
+        "Display/market access facilities: lower of ₹5 crore or 30%",
+        "E-Commerce Export Hubs: lower of ₹10 crore or 30%"
+      ],
+      "checks": [
+        "MSMEs benefit as users of supported facilities; no direct MSME application route",
+        "Support for up to 3 years after Sub-Committee and Steering Committee approval"
+      ],
+      "extraFor": null,
+      "docs": "Detailed project report, cost breakdown and sustainability plan (filed by the applicant entity)",
+      "confidence": "high",
+      "needs": "Access via an eligible applicant – EPC, commodity board, logistics/warehousing provider, industry association, exporter cluster, government body or E-Commerce Export Hub operator",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "trade.gov.in – FLOW proposals",
+        "url": "https://www.trade.gov.in/"
+      },
+      "source": {
+        "label": "PIB – EPM: integrated pathway for MSMEs",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2232079",
+        "date": "2026-02-24"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "scope": "Reached through an EPC, commodity board, logistics provider or export hub operator, not by direct application",
+      "lowFit": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "courier-ecommerce-exports",
+      "name": "Courier and e-commerce export facilitation (Budget 2026-27)",
+      "abbr": "Courier exports",
+      "agency": "CBIC and DGFT",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "In force from 1 Apr 2026 via DGFT Notification 67/2025-26, CBIC Notifications 33 and 34/2026-Customs (N.T.) and Circular 17/2026-Customs (PIB 31 Mar 2026); DGFT Notification 36/2026-27 (15 Sep 2026) waived RCMC for consignments up to ₹3 lakh FOB.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "No value cap on courier exports (was ₹10 lakh); RCMC waived for consignments up to ₹3 lakh",
+      "gets": [
+        "Commercial export consignments of any value can go by courier from 1 Apr 2026",
+        "Risk-based re-import of e-commerce returns and rejects with a dedicated ECCS return module",
+        "RCMC not required where FOB is ₹3 lakh or less per consignment (FTP para 2.57(c))"
+      ],
+      "checks": [
+        "Goods must be freely exportable; restricted/prohibited items excluded",
+        "Confirm with your courier that RoDTEP/drawback can be claimed for your consignment type"
+      ],
+      "extraFor": null,
+      "docs": "IEC; invoice; KYC with courier; AD code registration",
+      "confidence": "high",
+      "needs": "IEC; AD code registered with Customs; an authorised courier filing in the Express Cargo Clearance System",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Ship through an authorised courier (ECCS)",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247313"
+      },
+      "source": {
+        "label": "PIB – CBIC reforms for e-commerce exports and courier trade",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2247313",
+        "date": "2026-03-31"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports",
+        "market"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "ecommerce-inventory-eor",
+      "name": "Inventory-based Cross-border E-commerce Export Framework (Exporter-on-Record)",
+      "abbr": "Exporter-on-Record",
+      "agency": "DGFT",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Introduced by DGFT Notification 27/2026-27 (new FTP paras 9.13–9.19) and Public Notice 25/2026-27, both dated 5 Aug 2026 (as summarised by TaxGuru).",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Sell via registered exporters-on-record who must pass on export benefits within 30 days",
+      "gets": [
+        "EOR buys against confirmed export orders and exports under its own IEC",
+        "EOR claims RoDTEP, drawback and other refunds and must pass them to sellers within 30 days, deducting at most 10% as charges",
+        "Payment to the supplier within 7 days of acceptance",
+        "Access to digital records of final sale price, order status and shipment tracking"
+      ],
+      "checks": [
+        "Only non-marketplace entities can register as EOR (ANF 9A)",
+        "Micro and small sellers keep MSMED Act rights; DGFT regional grievance route within 30 days"
+      ],
+      "extraFor": null,
+      "docs": "Supply agreement with the EOR; GST invoices",
+      "confidence": "medium",
+      "needs": "A supply arrangement with a DGFT-registered Exporter-on-Record (non-marketplace e-commerce entity); Indian-origin goods",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "DGFT (EOR registration, ANF 9A)",
+        "url": "https://www.dgft.gov.in/"
+      },
+      "source": {
+        "label": "DGFT Notification 27/2026-27 (via TaxGuru)",
+        "url": "https://taxguru.in/dgft/dgft-introduces-inventory-based-cross-border-commerce-export-framework-ftp-2023.html",
+        "date": "2026-08-05"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "towns-export-excellence",
+      "name": "Towns of Export Excellence",
+      "abbr": "TEE",
+      "agency": "DGFT",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "The TEE provision continues in FTP 2023 (in force from 1 Apr 2023), whose Chapter 5 still lets Common Service Providers in TEEs hold EPCG; any 2025–26 additions to the town list are unconfirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Towns exporting ₹750 crore+ (₹150 crore for handloom, handicraft, agri, fisheries) get priority support",
+      "gets": [
+        "Priority for market-access funding to the town's recognised associations (earlier under MAI; now under EPM – mapping unconfirmed)",
+        "Common Service Providers in the town eligible for EPCG",
+        "Cluster facilitation via DGFT regional offices"
+      ],
+      "checks": [
+        "Check whether your town is notified (e.g., Tiruppur, Panipat, Faridabad, Mirzapur, Moradabad, Varanasi)",
+        "Benefits flow mainly through associations, not individual units"
+      ],
+      "extraFor": null,
+      "docs": "Proof of location in the TEE; association membership",
+      "confidence": "medium",
+      "needs": "Unit located in a DGFT-notified TEE; membership of the town's recognised association of units",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "DGFT – Foreign Trade Policy 2023",
+        "url": "https://www.dgft.gov.in/CP/?opt=ft-policy"
+      },
+      "source": {
+        "label": "FTP 2023 Chapter 5 (para 5.02(b)) – DGFT",
+        "url": "https://content.dgft.gov.in/Website/dgftprod/9f6336a2-e03d-4dbb-86eb-305615f0db13/FTP2023_Chapter05.pdf",
+        "date": "2023-04-01"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "scope": "Only for units in a DGFT-notified Town of Export Excellence",
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "niryat-bandhu",
+      "name": "Niryat Bandhu – mentoring for new and potential exporters",
+      "abbr": "Niryat Bandhu",
+      "agency": "DGFT",
+      "cat": "Exports",
+      "status": "open",
+      "statusNote": "Unconfirmed: a long-running DGFT outreach and mentoring programme, but no 2025–26 notice or current programme page could be verified.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "any"
+      ],
+      "headline": "Free DGFT mentoring for first-time exporters; 2026 status unconfirmed",
+      "gets": [
+        "Guidance on IEC, export procedures, FTP schemes and market access through DGFT regional offices and outreach sessions"
+      ],
+      "checks": [
+        "Contact the nearest DGFT regional authority or district export promotion cell to confirm current sessions"
+      ],
+      "extraFor": null,
+      "docs": "None",
+      "confidence": "low",
+      "needs": "None formally; an IEC is needed before exporting",
+      "maxAgeYears": null,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "DGFT website",
+        "url": "https://www.dgft.gov.in/"
+      },
+      "source": {
+        "label": "DGFT (not verified)",
+        "url": "https://www.dgft.gov.in/",
+        "date": "unconfirmed"
+      },
+      "kind": "export",
+      "strictGoal": "exports",
+      "goals": [
+        "exports"
+      ],
+      "weight": 5,
+      "hideIfNo": true,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "dpiit-recognition",
+      "name": "DPIIT Startup Recognition (incl. Deep Tech Startup)",
+      "abbr": "DPIIT",
+      "agency": "DPIIT, Ministry of Commerce & Industry (Startup India)",
+      "cat": "Startups",
+      "status": "open",
+      "statusNote": "Governed by G.S.R. 108(E) of 4 Feb 2026 (turnover cap raised to ₹200 crore, deep tech 20 years/₹300 crore, cooperatives added), which the Startup India recognition page updated on 14 Sep 2026 reflects.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "pvt",
+        "partnership",
+        "llp",
+        "other"
+      ],
+      "headline": "Startup status for firms up to 10 years old (20 for deep tech), turnover ≤₹200 crore",
+      "gets": [
+        "Gateway to the s.80-IAC/s.140 tax holiday, CGSS, FFS-backed venture capital, procurement relaxations, IPR fee rebates and self-certification",
+        "Deep Tech Startup status: recognition up to 20 years and ₹300 crore turnover",
+        "Free recognition certificate"
+      ],
+      "checks": [
+        "Eligible forms: private limited company, registered partnership firm, LLP, multi-state or state/UT cooperative society ('other' = cooperative only); proprietorships and public limited companies are not eligible",
+        "Recognition ends 10 years from incorporation (20 for deep tech) or once turnover crosses the cap",
+        "Pure trading/reselling without an innovative model is usually rejected",
+        "Angel-tax exemption no longer matters: s.56(2)(viib) was abolished for all from AY 2025-26"
+      ],
+      "extraFor": null,
+      "docs": "Certificate of incorporation/registration; PAN; write-up on innovation/scalability; pitch deck or website; director/partner details; IPR (if any); authorisation letter",
+      "confidence": "high",
+      "needs": "An innovative or scalable business model (innovation or improvement of products, processes or services, or high employment/wealth-creation potential); not formed by splitting or reconstructing an existing business; turnover never above ₹200 crore (₹300 crore for deep tech)",
+      "maxAgeYears": 10,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Apply on National Single Window System (NSWS)",
+        "url": "https://www.nsws.gov.in/"
+      },
+      "source": {
+        "label": "Startup India recognition page; G.S.R. 108(E) of 4 Feb 2026",
+        "url": "https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html",
+        "date": "2026-09-14"
+      },
+      "kind": "startup",
+      "strictGoal": "startup",
+      "goals": [
+        "startup"
+      ],
+      "weight": 6,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "startup-tax-holiday",
+      "name": "Startup tax holiday – s.80-IAC (Income-tax Act 1961) / s.140 (Income-tax Act 2025)",
+      "abbr": "80-IAC / s.140",
+      "agency": "CBDT with DPIIT Inter-Ministerial Board (IMB)",
+      "cat": "Startups",
+      "status": "open",
+      "statusNote": "The Finance Act 2025 extended the incorporation deadline to before 1 Apr 2030 (s.80-IAC on incometaxindia.gov.in), and from 1 Apr 2026 the same deduction sits in s.140 of the Income-tax Act 2025 with the same 1 Apr 2016–31 Mar 2030 window.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "pvt",
+        "llp"
+      ],
+      "headline": "100% profit deduction for any 3 consecutive years in first 10; incorporate before 1 April 2030",
+      "gets": [
+        "100% deduction of profits from the eligible business for 3 consecutive tax years out of the first 10 from incorporation",
+        "Employees of IMB-certified startups can defer ESOP perquisite tax (carry-over into the 2025 Act not re-verified)"
+      ],
+      "checks": [
+        "Incorporated on or after 1 Apr 2016 and before 1 Apr 2030",
+        "Company or LLP only – partnerships and cooperatives are not eligible",
+        "Turnover cap ₹100 crore (lower than DPIIT's ₹200 crore)",
+        "Not formed by splitting/reconstruction; previously used plant and machinery at most 20%"
+      ],
+      "extraFor": null,
+      "docs": "DPIIT certificate; audited financials (up to 3 years); shareholding pattern; CA certificates; IPR (if any); pitch deck; proof of innovation, employment and investment",
+      "confidence": "high",
+      "needs": "DPIIT recognition; IMB certificate of eligible business; taxable profits; turnover of ₹100 crore or less in the claim year",
+      "maxAgeYears": 10,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Startup India – apply for IMB (80-IAC) certificate",
+        "url": "https://www.startupindia.gov.in/content/sih/en/form80iac.html"
+      },
+      "source": {
+        "label": "Income Tax Department – Section 80-IAC (as amended by Finance Act 2025)",
+        "url": "https://www.incometaxindia.gov.in/w/section-80-iac-1",
+        "date": "2025-03-29"
+      },
+      "kind": "startup",
+      "strictGoal": "startup",
+      "goals": [
+        "startup"
+      ],
+      "weight": 6,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "sisfs",
+      "name": "Startup India Seed Fund Scheme",
+      "abbr": "SISFS",
+      "agency": "DPIIT (via selected incubators)",
+      "cat": "Startups",
+      "status": "closed 2026-05-31",
+      "statusNote": "Secondary sources citing the SISFS portal report the final startup application deadline as 31 May 2026, incubator selections due by 30 Jun 2026 and no successor announced as of 23 Sep 2026.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "pvt",
+        "partnership",
+        "llp",
+        "other"
+      ],
+      "headline": "Was up to ₹20 lakh grant plus ₹50 lakh debt via incubators; applications closed May 2026",
+      "gets": [
+        "(When open) grant up to ₹20 lakh for proof of concept, prototype and trials",
+        "(When open) up to ₹50 lakh through convertible debentures or debt for market entry and scale-up"
+      ],
+      "checks": [
+        "Closed to new applications; watch for a successor scheme",
+        "Startups already selected may still receive tranches through their incubator"
+      ],
+      "extraFor": null,
+      "docs": "Not applicable (closed)",
+      "confidence": "medium",
+      "needs": "DPIIT recognition; selection by an SISFS incubator; no more than ₹10 lakh prior government monetary support; at least 51% Indian promoter shareholding",
+      "maxAgeYears": 2,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "SISFS portal (closed to new applications)",
+        "url": "https://seedfund.startupindia.gov.in/"
+      },
+      "source": {
+        "label": "SISFS portal (deadline per secondary sources)",
+        "url": "https://seedfund.startupindia.gov.in/",
+        "date": "2026-05-31"
+      },
+      "kind": "startup",
+      "strictGoal": "startup",
+      "goals": [
+        "startup"
+      ],
+      "weight": 5,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "cgss",
+      "name": "Credit Guarantee Scheme for Startups",
+      "abbr": "CGSS",
+      "agency": "DPIIT with NCGTC",
+      "cat": "Startups",
+      "status": "open",
+      "statusNote": "Expansion notified on 9 May 2025 (PIB) raised per-borrower cover from ₹10 crore to ₹20 crore and cut the fee to 1% for 27 Champion Sectors; Startup India lists it as current.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "pvt",
+        "partnership",
+        "llp",
+        "other"
+      ],
+      "headline": "Collateral-free startup loans guaranteed up to ₹20 crore per borrower (85% cover up to ₹10 crore)",
+      "gets": [
+        "Guarantee cover up to ₹20 crore per borrower",
+        "85% of the default amount for loans up to ₹10 crore; 75% above ₹10 crore",
+        "Annual guarantee fee 1% (down from 2%) for startups in the 27 Champion Sectors",
+        "Covers term loans, working capital and venture debt"
+      ],
+      "checks": [
+        "Lender decides on credit – the guarantee does not oblige a sanction",
+        "Deep-tech startups stay eligible up to 20 years",
+        "Lower fees for women-led or North-East startups are reported by media but unconfirmed"
+      ],
+      "extraFor": null,
+      "docs": "DPIIT certificate; financial statements; loan application with the lender; business plan",
+      "confidence": "high",
+      "needs": "DPIIT recognition; a loan or venture debt from a CGSS member institution (bank, NBFC or AIF); not in default or NPA",
+      "maxAgeYears": 10,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Through a CGSS member lender or JanSamarth (details on Startup India)",
+        "url": "https://www.startupindia.gov.in/content/sih/en/credit-guarantee-scheme-for-startups.html"
+      },
+      "source": {
+        "label": "PIB – Expansion of CGSS notified",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2127843",
+        "date": "2025-05-09"
+      },
+      "kind": "startup",
+      "strictGoal": "startup",
+      "goals": [
+        "startup",
+        "credit"
+      ],
+      "weight": 5,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "ffs",
+      "name": "Startup India Fund of Funds 2.0 (and FFS 1.0)",
+      "abbr": "FFS 2.0",
+      "agency": "DPIIT; SIDBI (implementing agency)",
+      "cat": "Startups",
+      "status": "open",
+      "statusNote": "The Cabinet approved FFS 2.0 (the ₹10,000 crore Budget 2025-26 top-up) on 14 Feb 2026, it was notified on 13 Apr 2026 and operational guidelines followed on 25 Apr 2026 (PIB), while FFS 1.0's ₹10,000 crore is fully committed to 145 AIFs.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "pvt"
+      ],
+      "headline": "₹10,000 crore FFS 2.0 backs VC funds investing in DPIIT startups; deep-tech and manufacturing prioritised",
+      "gets": [
+        "Access to venture capital from FFS-backed AIFs (indirect – no direct application)",
+        "Dedicated segments: deep tech, micro-VC/early growth, tech-led manufacturing, and sector/stage-agnostic funds"
+      ],
+      "checks": [
+        "Startups pitch to AIFs, not to SIDBI or DPIIT",
+        "The equity route effectively needs a private limited company",
+        "Deep-tech startups stay eligible up to 20 years"
+      ],
+      "extraFor": null,
+      "docs": "Pitch deck; financials; cap table; DPIIT certificate",
+      "confidence": "high",
+      "needs": "DPIIT recognition; an equity round from a SEBI-registered Category I/II AIF backed by FFS",
+      "maxAgeYears": 10,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Pitch to FFS-backed AIFs (scheme document)",
+        "url": "https://www.startupindia.gov.in/content/dam/startupindia/Startup-India-Fund-of-Funds-2.0-Scheme.pdf"
+      },
+      "source": {
+        "label": "PIB – FFS 2.0 operational guidelines",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255545",
+        "date": "2026-04-25"
+      },
+      "kind": "startup",
+      "strictGoal": "startup",
+      "goals": [
+        "startup",
+        "equity"
+      ],
+      "weight": 5,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "startup-procurement",
+      "name": "Public procurement relaxations for startups",
+      "abbr": "Startup procurement",
+      "agency": "Department of Expenditure (GFR 2017); GeM",
+      "cat": "Startups",
+      "status": "open",
+      "statusNote": "GFR 2017 Rules 173(i) and 170(i) as set out on the Startup India public procurement page (checked Sep 2026); no 2025–26 change found.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "pvt",
+        "partnership",
+        "llp",
+        "other"
+      ],
+      "headline": "₹0 EMD and no prior turnover/experience bar in central tenders for DPIIT startups",
+      "gets": [
+        "Relaxation of prior turnover and prior experience criteria in central government procurement (GFR 173(i))",
+        "Exemption from earnest money deposit/bid security (GFR 170(i))",
+        "GeM Startup Runway and Startup India badge on GeM"
+      ],
+      "checks": [
+        "Quality and technical specifications are not relaxed",
+        "The buyer must apply the relaxation in the bid – check the bid document",
+        "Micro and small units also get MSE Public Procurement Policy preferences separately"
+      ],
+      "extraFor": null,
+      "docs": "DPIIT recognition number; PAN; Aadhaar of authorised person; mobile number used for recognition",
+      "confidence": "high",
+      "needs": "DPIIT recognition; GeM seller registration; ability to meet the tender's quality and technical specifications",
+      "maxAgeYears": 10,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Register on GeM with DPIIT number",
+        "url": "https://gem.gov.in/"
+      },
+      "source": {
+        "label": "Startup India – Public Procurement",
+        "url": "https://www.startupindia.gov.in/content/sih/en/public_procurement.html",
+        "date": "unconfirmed"
+      },
+      "kind": "startup",
+      "strictGoal": "startup",
+      "goals": [
+        "startup",
+        "govt"
+      ],
+      "weight": 5,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "startup-ipr",
+      "name": "Patent and trademark fee rebates, expedited examination and SIPP",
+      "abbr": "Startup IP rebates",
+      "agency": "Office of CGPDTM (IP India), DPIIT",
+      "cat": "Startups",
+      "status": "open",
+      "statusNote": "Startup fee concessions and expedited examination sit in the Patents and Trade Marks Rules (ongoing), while IP India's SIPP page shows facilitator-fee support extended for 3 years from 1 Apr 2023 (to 31 Mar 2026) and any later extension is unconfirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "pvt",
+        "partnership",
+        "llp",
+        "other"
+      ],
+      "headline": "80% lower patent fees, 50% lower trademark fees, fast-track patent examination for recognised startups",
+      "gets": [
+        "Patent official fees at the startup rate – about 80% below other (large) entities",
+        "Trademark filing fees 50% lower",
+        "Expedited examination of patent applications",
+        "Government-paid IP facilitator (IP Mitra) fees under SIPP, if extended beyond 31 Mar 2026"
+      ],
+      "checks": [
+        "Udyam-registered small entities get a smaller patent-fee concession even without DPIIT recognition",
+        "Confirm SIPP status before relying on a free facilitator"
+      ],
+      "extraFor": null,
+      "docs": "DPIIT certificate as proof of startup status (Form 28 for patents); patent specification or trademark details",
+      "confidence": "medium",
+      "needs": "DPIIT recognition; an invention or brand to protect",
+      "maxAgeYears": 10,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Startup India IPR support / IP India e-filing",
+        "url": "https://www.startupindia.gov.in/content/sih/en/intellectual-property-rights.html"
+      },
+      "source": {
+        "label": "IP India – SIPP scheme page",
+        "url": "https://ipindia.gov.in/page-content/startups-intellectual-property-protection-sipp",
+        "date": "2023-04-01"
+      },
+      "kind": "startup",
+      "strictGoal": "startup",
+      "goals": [
+        "startup",
+        "ip"
+      ],
+      "weight": 5,
+      "checked": "29 Sep 2026"
+    },
+    {
+      "id": "startup-self-certification",
+      "name": "Self-certification under labour and environment laws",
+      "abbr": "Self-certification",
+      "agency": "Ministry of Labour & Employment; MoEFCC (via Startup India)",
+      "cat": "Startups",
+      "status": "open",
+      "statusNote": "The Startup India page still lists self-certification under 9 labour Acts and 3 environment Acts, but most of those labour Acts were subsumed by the Labour Codes brought into force in Nov 2025 (not re-verified), so current labour-side applicability is unconfirmed.",
+      "sizes": [
+        "micro",
+        "small",
+        "medium"
+      ],
+      "activities": [
+        "manufacturing",
+        "services",
+        "trading"
+      ],
+      "orgTypes": [
+        "pvt",
+        "partnership",
+        "llp",
+        "other"
+      ],
+      "headline": "Self-certify 9 labour and 3 environment laws; no routine inspections for 3–5 years",
+      "gets": [
+        "Self-certified compliance instead of routine inspections (inspection only on a credible complaint)",
+        "White-category startups self-certify under the Water Act, Water Cess Act and Air Act"
+      ],
+      "checks": [
+        "Labour Codes replaced most listed Acts – check current state rules and the Shram Suvidha portal",
+        "Available for 3–5 years from incorporation (per Startup India)"
+      ],
+      "extraFor": null,
+      "docs": "DPIIT certificate; self-declaration on Shram Suvidha or the state portal",
+      "confidence": "low",
+      "needs": "DPIIT recognition; for the environment laws, a 'white category' (non-polluting) activity",
+      "maxAgeYears": 5,
+      "groupOnly": null,
+      "newOrExpansion": null,
+      "states": [],
+      "nic2": [],
+      "nic4": [],
+      "apply": {
+        "label": "Startup India – self-certification (Shram Suvidha portal)",
+        "url": "https://www.startupindia.gov.in/content/sih/en/startupgov/self-certification.html"
+      },
+      "source": {
+        "label": "Startup India – Self-certification",
+        "url": "https://www.startupindia.gov.in/content/sih/en/startupgov/self-certification.html",
+        "date": "unconfirmed"
+      },
+      "kind": "startup",
+      "strictGoal": "startup",
+      "goals": [
+        "startup"
+      ],
+      "weight": 5,
+      "checked": "29 Sep 2026"
+    }
+  ]
+}

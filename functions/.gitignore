@@ -1,0 +1,7 @@
+node_modules/
+lib/
+*.local
+.secret.local
+*.pem
+.env.*
+!.env.example

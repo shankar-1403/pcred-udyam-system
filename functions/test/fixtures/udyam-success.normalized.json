@@ -1,0 +1,115 @@
+{
+  "verification_id": "pcred_udyam_test_0001",
+  "reference_id": "3478283",
+  "status": "SUCCESS",
+  "udyam_number": "UDYAM-MH-26-0012345",
+  "enterprise_name": "SHREE GANESH ENGINEERING WORKS",
+  "organization_type": "Proprietary",
+  "major_activity": "Manufacturing",
+  "social_category": "OBC",
+  "enterprise_type": "Micro",
+  "date_of_incorporation": "2017-03-14",
+  "date_of_commencement": "2017-04-01",
+  "date_of_udyam_registration": "2021-02-10",
+  "classification_year": "2025-26",
+  "classification_date": "2025-06-02",
+  "udyam_certificate_url": "https://example.com/udyam-certificate.pdf",
+  "split_address": {
+    "flat": "Shed No. 12",
+    "building": "Sai Industrial Estate",
+    "village": "",
+    "block": "",
+    "street": "Bhosari MIDC Road",
+    "city": "Pune",
+    "district": "PUNE",
+    "state": "MAHARASHTRA",
+    "pincode": "411026",
+    "mobile": "98*****210",
+    "email": "ga******@gmail.com"
+  },
+  "unit_locations": [
+    {
+      "serial_number": "1",
+      "unit_name": "Shree Ganesh Engineering Works",
+      "flat": "Shed No. 12",
+      "building": "Sai Industrial Estate",
+      "village": "Bhosari",
+      "block": "",
+      "street": "Bhosari MIDC Road",
+      "city": "Pune",
+      "district": "PUNE",
+      "state": "MAHARASHTRA",
+      "pincode": "411026"
+    },
+    {
+      "serial_number": "2",
+      "unit_name": "Unit 2",
+      "flat": "Gala 4",
+      "building": "Chakan Industrial Park",
+      "village": "Chakan",
+      "block": "Khed",
+      "street": "Talegaon Chakan Road",
+      "city": "Chakan",
+      "district": "PUNE",
+      "state": "MAHARASHTRA",
+      "pincode": "410501"
+    }
+  ],
+  "nic_codes": [
+    {
+      "serial_number": "1",
+      "nic_2_digit": "25",
+      "nic_2_description": "Manufacture of fabricated metal products, except machinery and equipment",
+      "nic_4_digit": "2592",
+      "nic_4_description": "Treatment and coating of metals; machining",
+      "nic_5_digit": "25920",
+      "nic_5_description": "Machining; general mechanical engineering on a fee or contract basis",
+      "activity": "Manufacturing",
+      "date": "2021-02-10"
+    },
+    {
+      "serial_number": "2",
+      "nic_2_digit": "28",
+      "nic_2_description": "Manufacture of machinery and equipment n.e.c.",
+      "nic_4_digit": "2822",
+      "nic_4_description": "Manufacture of metal-forming machinery and machine tools",
+      "nic_5_digit": "28221",
+      "nic_5_description": "Manufacture of machine tools for working metals",
+      "activity": "Manufacturing",
+      "date": "2021-02-10"
+    },
+    {
+      "serial_number": "3",
+      "nic_2_digit": "33",
+      "nic_2_description": "Repair and installation of machinery and equipment",
+      "nic_4_digit": "3312",
+      "nic_4_description": "Repair of machinery",
+      "nic_5_digit": "33121",
+      "nic_5_description": "Repair and maintenance of industrial machinery",
+      "activity": "Services",
+      "date": "2023-08-19"
+    }
+  ],
+  "classification_history": [
+    {
+      "serial_number": "1",
+      "classification_year": "2023-24",
+      "enterprise_type": "Micro",
+      "classification_date": "2023-06-01"
+    },
+    {
+      "serial_number": "2",
+      "classification_year": "2024-25",
+      "enterprise_type": "Micro",
+      "classification_date": "2024-06-03"
+    },
+    {
+      "serial_number": "3",
+      "classification_year": "2025-26",
+      "enterprise_type": "Micro",
+      "classification_date": "2025-06-02"
+    }
+  ],
+  "dic": "PUNE",
+  "msme_di": "MUMBAI"
+}
