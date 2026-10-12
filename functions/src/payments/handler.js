@@ -1,5 +1,5 @@
 import { createHash, randomBytes } from 'node:crypto';
-import { REPORT_PRICE_INR } from './price.js';
+import { isReportPrice } from './price.js';
 import { openRecord, sealHash, sealTagMatches } from './seal.js';
 import { createPaymentOrder, readPaymentOrder } from './gateway.js';
 import { RateLimiter } from '../server/rate-limit.js';
@@ -105,13 +105,15 @@ export async function handleCheckoutRequest(req, deps) {
     const opened = openRecord(sealed, loaded.sealSecret, deps.now?.() ?? Date.now());
     if (!opened.ok) {
         return failure(opened.reason === 'expired' ? 'PREVIEW_EXPIRED' : 'BAD_REQUEST', opened.reason === 'expired'
-            ? 'This preview expired. Verify the Udyam number again, then pay.'
-            : 'Verify the Udyam number again, then pay.', 400);
+            ? 'This preview expired. Start again, then pay.'
+            : 'Start again, then pay.', 400);
     }
+    if (!isReportPrice(opened.amount))
+        return failure('BAD_REQUEST', 'Start again, then pay.', 400);
     const orderId = newOrderId();
     const created = await createPaymentOrder(loaded.pg, {
         orderId,
-        amount: REPORT_PRICE_INR,
+        amount: opened.amount,
         phone,
         customerId: `cust_${createHash('sha256').update(phone).digest('hex').slice(0, 12)}`,
         returnUrl: `${siteOrigin(req.headers)}/?order_id={order_id}`,
@@ -122,7 +124,7 @@ export async function handleCheckoutRequest(req, deps) {
         return failure('SERVICE_UNAVAILABLE', 'Payment could not be started. Please try again later.', created.httpStatus === 504 ? 504 : 503);
     }
     logEvent('info', 'udyam_pay', { outcome: 'order_created', order_id: orderId });
-    return reply(200, { ok: true, order_id: orderId, payment_session_id: created.paymentSessionId, price: { amount: REPORT_PRICE_INR, currency: 'INR' } });
+    return reply(200, { ok: true, order_id: orderId, payment_session_id: created.paymentSessionId, price: { amount: opened.amount, currency: 'INR' } });
 }
 
 export async function handleUnlockRequest(req, deps) {
@@ -140,8 +142,8 @@ export async function handleUnlockRequest(req, deps) {
     const opened = openRecord(sealed, loaded.sealSecret, deps.now?.() ?? Date.now());
     if (!opened.ok) {
         return failure(opened.reason === 'expired' ? 'PREVIEW_EXPIRED' : 'BAD_REQUEST', opened.reason === 'expired'
-            ? 'This preview expired. Verify the Udyam number again. If you were charged, use the same browser to open the payment return link.'
-            : 'Verify the Udyam number again, then pay.', 400);
+            ? 'This preview expired. Start again. If you were charged, use the same browser to open the payment return link.'
+            : 'Start again, then pay.', 400);
     }
     const payment = await readPaymentOrder(loaded.pg, orderId, deps.fetchImpl);
     if (!payment.ok) {
@@ -152,7 +154,7 @@ export async function handleUnlockRequest(req, deps) {
     const tag = tags && typeof tags === 'object' ? tags.seal : '';
     const amount = Number(payment.order?.order_amount);
     const currency = payment.order?.order_currency;
-    if (!sealTagMatches(sealed, tag) || currency !== 'INR' || Math.abs(amount - REPORT_PRICE_INR) > 0.001) {
+    if (!sealTagMatches(sealed, tag) || currency !== 'INR' || !isReportPrice(opened.amount) || Math.abs(amount - opened.amount) > 0.001) {
         logEvent('warn', 'udyam_pay', { outcome: 'rejected', reason: 'order_mismatch', order_id: orderId });
         return failure('BAD_REQUEST', 'This payment does not match the fetched record. Please pay again.', 400);
     }

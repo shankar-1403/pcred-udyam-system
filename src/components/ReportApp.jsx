@@ -56,11 +56,12 @@ export default function ReportApp() {
     const [returnError, setReturnError] = useState('');
     const engine = useRef(null);
     const queued = useRef(null);
-    const applyRecord = useCallback((r) => {
+    const applyRecord = useCallback((r, extra = {}) => {
+        const opts = { source: extra.source, women: extra.women };
         if (engine.current)
-            engine.current.applyUdyam(r);
+            engine.current.applyUdyam(r, opts);
         else
-            queued.current = { record: r };
+            queued.current = { record: r, source: opts.source, women: opts.women };
     }, []);
     useEffect(() => {
         let active = true;
@@ -74,7 +75,7 @@ export default function ReportApp() {
             queued.current = null;
             if (q) {
                 if (q.record)
-                    api.applyUdyam(q.record);
+                    api.applyUdyam(q.record, { source: q.source, women: q.women });
                 else
                     api.resetToSample();
             }
@@ -94,14 +95,14 @@ export default function ReportApp() {
             return;
         }
         let active = true;
-        unlockPaidOrder(orderId, pack.sealed)
+            unlockPaidOrder(orderId, pack.sealed)
             .then((r) => {
             if (!active)
                 return;
             sessionStorage.removeItem(PREVIEW_KEY);
             window.history.replaceState({}, '', window.location.pathname);
             setRecord(r);
-            applyRecord(r);
+            applyRecord(r, pack);
         })
             .catch((err) => {
             if (!active)
@@ -112,6 +113,16 @@ export default function ReportApp() {
         return () => {
             active = false;
         };
+    }, [applyRecord]);
+    const handleCached = useCallback((hit) => {
+        sessionStorage.removeItem(PREVIEW_KEY);
+        setReturnError('');
+        setPreviewPack(null);
+        setRecord(hit.data);
+        applyRecord(hit.data, {
+            source: hit.source === 'certificate' ? 'cert' : 'udyam',
+            women: hit.women,
+        });
     }, [applyRecord]);
     const handleVerified = useCallback((pack) => {
         setRecord(null);
@@ -127,12 +138,13 @@ export default function ReportApp() {
             queued.current = { record: null };
     }, []);
     const handlePaid = useCallback((r) => {
+        const extra = { source: previewPack?.source, women: previewPack?.women };
         sessionStorage.removeItem(PREVIEW_KEY);
         setReturnError('');
         setPreviewPack(null);
         setRecord(r);
-        applyRecord(r);
-    }, [applyRecord]);
+        applyRecord(r, extra);
+    }, [applyRecord, previewPack]);
     const handleReset = useCallback(() => {
         sessionStorage.removeItem(PREVIEW_KEY);
         setRecord(null);
@@ -148,7 +160,7 @@ export default function ReportApp() {
       <Topbar />
       <main className="layout">
         <section className="bench" aria-label="Your details">
-          <UdyamVerification onVerified={handleVerified} onReset={handleReset}/>
+          <UdyamVerification onVerified={handleVerified} onCached={handleCached} onReset={handleReset}/>
           <LegacyCards />
         </section>
         <div className="results">

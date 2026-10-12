@@ -53,7 +53,8 @@ function rupees(amount) {
 export default function LockedPreview({ pack, onPaid }) {
     const preview = pack.preview;
     const priceLabel = rupees(pack.price?.amount);
-    const [phone, setPhone] = useState('');
+    const fromCertificate = pack.source === 'cert';
+    const [phone, setPhone] = useState(() => (typeof pack.phone === 'string' ? pack.phone.replace(/\D/g, '').slice(0, 10) : ''));
     const [phase, setPhase] = useState('idle');
     const [message, setMessage] = useState('');
     const rows = [
@@ -115,7 +116,7 @@ export default function LockedPreview({ pack, onPaid }) {
     return (<section className="ud ud-lock" id="udyam-preview" aria-labelledby="udyam-preview-title">
       <header className="ud__head">
         <div className="ud__heading">
-          <p className="ud__eyebrow">Udyam record fetched</p>
+          <p className="ud__eyebrow">{fromCertificate ? 'Read from your certificate' : 'Udyam record fetched'}</p>
           <h2 className="ud__title" id="udyam-preview-title">{preview.enterprise_name || preview.udyam_number}</h2>
           <p className="ud__meta">
             {preview.udyam_number ? <span className="ud__urn">{preview.udyam_number}</span> : null}
@@ -123,7 +124,9 @@ export default function LockedPreview({ pack, onPaid }) {
           </p>
         </div>
       </header>
-      <p className="ud-lock__lead">This is your fetched record. Pay {priceLabel} to open the full details and download the scheme report.</p>
+      <p className="ud-lock__lead">{fromCertificate
+            ? `This is what we read from your certificate. Pay ${priceLabel} to open the scheme report.`
+            : `This is your fetched record. Pay ${priceLabel} to open the full details and download the scheme report.`}</p>
       <div className="ud-lock__sheet">
         <dl className="ud-lock__clear">
           {rows.map(([label, value]) => (<div key={label}>
@@ -135,11 +138,13 @@ export default function LockedPreview({ pack, onPaid }) {
           <p>Registered address</p>
           <span className="ud-lock__bar"/>
           <span className="ud-lock__bar ud-lock__bar--short"/>
-          <p>Unit locations and NIC codes</p>
-          <span className="ud-lock__bar"/>
           <p>Scheme eligibility</p>
           <span className="ud-lock__bar"/>
           <span className="ud-lock__bar ud-lock__bar--mid"/>
+          <p>Credit guarantee and subsidy</p>
+          <span className="ud-lock__bar"/>
+          <p>Where to start</p>
+          <span className="ud-lock__bar ud-lock__bar--short"/>
         </div>
       </div>
       <form className="ud-lock__pay" onSubmit={pay} noValidate>
@@ -149,7 +154,9 @@ export default function LockedPreview({ pack, onPaid }) {
           {paying ? (<><span className="spinner" aria-hidden="true"/>Opening payment…</>) : `Pay ${priceLabel} to view and download`}
         </button>
         {message ? <p className="uv__msg uv__msg--err" role="alert">{message}</p> : null}
-        <p className="ud-lock__note">Payment opens in Cashfree. The full record and the PDF stay hidden until the payment succeeds.</p>
+        <p className="ud-lock__note">{fromCertificate
+            ? 'Payment opens in Cashfree. The scheme report stays hidden until the payment succeeds.'
+            : 'Payment opens in Cashfree. The full record and the PDF stay hidden until the payment succeeds.'}</p>
       </form>
     </section>);
 }

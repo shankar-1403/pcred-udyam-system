@@ -1,0 +1,11 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "leads": {
+      ".read": false,
+      ".write": false,
+      ".indexOn": ["udyam_number", "created_at"]
+    }
+  }
+}

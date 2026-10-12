@@ -8,11 +8,12 @@
 // Verification flow. The browser's calls to /api/udyam/verify are answered by fixtures, so
 // these tests never contact Cashfree. Screenshots go to tests/e2e/artifacts/.
 import { spawn } from 'node:child_process';
-import { readFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { createServer } from 'node:net';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
+import { jsPDF } from 'jspdf';
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const out = join(repoRoot, 'tests/e2e/artifacts');
@@ -126,6 +127,12 @@ async function main() {
       ok: true, order_id: 'pcred_pay_0123456789abcdef', payment_session_id: 'session_test',
     })));
     await page.route('**/api/udyam/unlock', (route) => route.fulfill(success(pendingRecord)));
+    await page.route('**/api/udyam/otp/send', (route) => route.fulfill(json(200, {
+      ok: true, challenge: 'challenge-test', dev_code: '123456',
+    })));
+    await page.route('**/api/udyam/otp/verify', (route) => route.fulfill(json(200, { ok: true, proof: 'proof-test' })));
+    await page.route('**/api/udyam/certificate', (route) => route.fulfill(locked()));
+    await page.route('**/api/udyam/lead', (route) => route.fulfill(json(200, { ok: true, cached: false })));
     await page.route('https://sdk.cashfree.com/**', (route) => route.fulfill({
       status: 200,
       contentType: 'application/javascript',
@@ -136,7 +143,27 @@ async function main() {
     return { page, context, errors, calls };
   }
   const urnInput = '#udyam-number';
-  const verifyBtn = '#udyam-verify';
+  const verifyBtn = '#udyam-fetch';
+  async function chooseNumber(page) {
+    await page.click('#method-number');
+    await page.waitForSelector(urnInput);
+  }
+  async function passOtp(page) {
+    await page.fill('#otp-phone', '9876543210');
+    await page.click('#otp-send');
+    await page.waitForSelector('#otp-code');
+    await page.fill('#otp-code', '123456');
+    await page.click('#otp-confirm');
+    await page.waitForSelector('#women-less');
+  }
+  async function submitNumber(page, urn = URN) {
+    await chooseNumber(page);
+    await page.fill(urnInput, urn);
+    await page.click('#udyam-continue');
+    await passOtp(page);
+    await page.click('#women-less');
+    await page.click(verifyBtn);
+  }
   async function completePayment(page) {
     await page.waitForSelector('#udyam-preview');
     await page.fill('#pay-phone', '9876543210');
@@ -148,6 +175,11 @@ async function main() {
     const { page, context, errors } = await openPage();
     assert(await page.isVisible('#card-udyam'), 'verification card missing');
     assert((await page.textContent('#card-udyam h2')).includes('Udyam Verification'), 'card title');
+    assert(await page.isVisible('#method-number'), 'number option');
+    assert(await page.isVisible('#method-pdf'), 'certificate option');
+    assert(!(await page.$('#certificate-file')), 'PDF upload stays behind its option');
+    assert(!(await page.$('#file')), 'old upload id stays unused');
+    await chooseNumber(page);
     assert((await page.getAttribute(urnInput, 'id')) === 'udyam-number', 'input');
     assert((await page.textContent('label[for="udyam-number"]')).trim() === 'Udyam Registration Number', 'label text');
     const report = await page.textContent('#report');
@@ -171,12 +203,13 @@ async function main() {
 
   await test('validation: empty and badly formatted numbers never reach the API', async () => {
     const { page, context, calls } = await openPage();
-    await page.click(verifyBtn);
+    await chooseNumber(page);
+    await page.click('#udyam-continue');
     await page.waitForSelector('#udyam-error');
     assert((await page.textContent('#udyam-error')).includes('Enter your Udyam Registration Number'), 'empty message');
     assert((await page.getAttribute(urnInput, 'aria-invalid')) === 'true', 'aria-invalid');
     await page.fill(urnInput, 'UDYAM-MH-18-024500');
-    await page.click(verifyBtn);
+    await page.click('#udyam-continue');
     assert((await page.textContent('#udyam-error')).includes('UDYAM-XX-00-0000000'), 'format message');
     await page.fill(urnInput, 'hello');
     await page.press(urnInput, 'Enter');
@@ -187,13 +220,17 @@ async function main() {
 
   await test('input is trimmed, upper-cased and tidied before it is sent', async () => {
     const { page, context, calls } = await openPage();
+    await chooseNumber(page);
     await page.fill(urnInput, '   udyam mh 26 0012345  ');
+    await page.click('#udyam-continue');
+    assert((await page.textContent('#udyam-chosen')).includes('UDYAM-MH-26-0012345'), 'tidied number');
+    await passOtp(page);
+    await page.click('#women-less');
     await page.click(verifyBtn);
     await page.waitForSelector('#udyam-preview');
     assert(calls.length === 1, 'one call');
     assert(calls[0].method === 'POST', 'POST');
-    assert(JSON.stringify(calls[0].body) === JSON.stringify({ udyam: 'UDYAM-MH-26-0012345' }), 'body ' + JSON.stringify(calls[0].body));
-    assert((await page.inputValue(urnInput)) === 'UDYAM-MH-26-0012345', 'input shows the tidied number');
+    assert(JSON.stringify(calls[0].body) === JSON.stringify({ udyam: 'UDYAM-MH-26-0012345', proof: 'proof-test', women: false }), 'body ' + JSON.stringify(calls[0].body));
     await context.close();
   });
 
@@ -201,12 +238,16 @@ async function main() {
     let release;
     const gate = new Promise((r) => (release = r));
     const { page, context, calls } = await openPage({ handler: async (route) => { await gate; return route.fulfill(locked()); } });
+    await chooseNumber(page);
     await page.fill(urnInput, URN);
+    await page.click('#udyam-continue');
+    await passOtp(page);
+    await page.click('#women-less');
     await page.click(verifyBtn);
     await page.waitForSelector('.uv__msg--info');
     assert((await page.textContent(verifyBtn)).includes('Verifying'), 'button text');
     assert(await page.isDisabled(verifyBtn), 'button disabled');
-    await page.evaluate(() => { const f = document.querySelector('.uv__form'); f.requestSubmit(); f.requestSubmit(); });
+    await page.evaluate(() => { const f = document.querySelector('#uv-women-form'); f.requestSubmit(); f.requestSubmit(); });
     await page.screenshot({ path: join(out, '03-loading.png') });
     release();
     await page.waitForSelector('#udyam-preview');
@@ -216,8 +257,7 @@ async function main() {
 
   await test('success: every section of the record is shown and the report uses it', async () => {
     const { page, context, errors } = await openPage();
-    await page.fill(urnInput, URN);
-    await page.click(verifyBtn);
+    await submitNumber(page);
     await page.waitForSelector('#udyam-preview');
     assert((await page.textContent('#udyam-preview')).includes('SHREE GANESH ENGINEERING WORKS'), 'preview shows the fetched name');
     assert((await page.textContent('#udyam-preview')).includes(URN), 'preview shows the Udyam number');
@@ -275,8 +315,7 @@ async function main() {
 
   await test('PDF report downloads from the website', async () => {
     const { page, context } = await openPage();
-    await page.fill(urnInput, URN);
-    await page.click(verifyBtn);
+    await submitNumber(page);
     await completePayment(page);
     const [download] = await Promise.all([page.waitForEvent('download', { timeout: 30000 }), page.click('#dl')]);
     const file = join(out, download.suggestedFilename());
@@ -291,8 +330,7 @@ async function main() {
 
   await test('existing report features still work after verification (edit details, answer questions)', async () => {
     const { page, context, errors } = await openPage();
-    await page.fill(urnInput, URN);
-    await page.click(verifyBtn);
+    await submitNumber(page);
     await completePayment(page);
     assert((await page.textContent('#state-sec h3')).includes('Maharashtra'), 'state section');
     await page.selectOption('#f-state', 'Gujarat');
@@ -308,11 +346,11 @@ async function main() {
 
   await test('reset clears the form, the details and the report', async () => {
     const { page, context } = await openPage();
-    await page.fill(urnInput, URN);
-    await page.click(verifyBtn);
+    await submitNumber(page);
     await page.waitForSelector('#udyam-preview');
     await page.click('#udyam-reset');
-    assert((await page.inputValue(urnInput)) === '', 'input cleared');
+    assert(!(await page.$(urnInput)), 'number field hidden');
+    assert(await page.isVisible('#method-number'), 'choice shown again');
     assert(!(await page.$('#udyam-preview')), 'preview removed');
     assert(!(await page.$('#udyam-details')), 'details removed');
     assert(!(await page.$('.uv__msg')), 'message cleared');
@@ -333,8 +371,7 @@ async function main() {
   for (const [name, response, expected, showsRef] of errorCases) {
     await test(`error state: ${name}`, async () => {
       const { page, context } = await openPage({ handler: (route) => route.fulfill(response) });
-      await page.fill(urnInput, URN);
-      await page.click(verifyBtn);
+      await submitNumber(page);
       await page.waitForSelector('.uv__msg--err');
       const t = await page.textContent('.uv__msg--err');
       assert(t.includes(expected), `expected "${expected}", got "${t}"`);
@@ -349,8 +386,7 @@ async function main() {
 
   await test('error state: network failure', async () => {
     const { page, context } = await openPage({ handler: (route) => route.abort('internetdisconnected') });
-    await page.fill(urnInput, URN);
-    await page.click(verifyBtn);
+    await submitNumber(page);
     await page.waitForSelector('.uv__msg--err');
     assert((await page.textContent('.uv__msg--err')).includes('could not reach the server'), 'network message');
     await context.close();
@@ -362,8 +398,7 @@ async function main() {
       note(record);
       return route.fulfill(locked(record));
     } });
-    await page.fill(urnInput, URN);
-    await page.click(verifyBtn);
+    await submitNumber(page);
     await completePayment(page);
     assert(!(await page.$('#udyam-certificate')), 'no certificate button');
     const t = await page.textContent('#udyam-details section[aria-label="Udyam Certificate"]');
@@ -374,8 +409,7 @@ async function main() {
 
   await test('mobile layout: no horizontal page scroll, tables scroll inside their cards', async () => {
     const { page, context } = await openPage({ viewport: { width: 390, height: 844 } });
-    await page.fill(urnInput, URN);
-    await page.click(verifyBtn);
+    await submitNumber(page);
     await completePayment(page);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     assert(overflow <= 0, `page scrolls sideways by ${overflow}px`);
@@ -385,10 +419,84 @@ async function main() {
 
   await test('dark mode renders', async () => {
     const { page, context } = await openPage({ colorScheme: 'dark' });
-    await page.fill(urnInput, URN);
-    await page.click(verifyBtn);
+    await submitNumber(page);
     await completePayment(page);
     await page.screenshot({ path: join(out, '09-dark.png') });
+    await context.close();
+  });
+
+  await test('certificate PDF is read on the device, then follows OTP, ownership and payment', async () => {
+    const pdfPath = join(out, 'certificate.pdf');
+    const doc = new jsPDF();
+    doc.setFontSize(16);
+    const lines = [
+      'UDYAM REGISTRATION CERTIFICATE',
+      'UDYAM REGISTRATION NUMBER',
+      'UDYAM-MH-26-0012345',
+      'NAME OF ENTERPRISE',
+      'SHREE GANESH ENGINEERING WORKS',
+      'TYPE OF ENTERPRISE',
+      'MICRO',
+      'MAJOR ACTIVITY',
+      'MANUFACTURING',
+      'OFFICIAL ADDRESS OF ENTERPRISE',
+      'District PUNE',
+      'State MAHARASHTRA',
+    ];
+    lines.forEach((line, i) => doc.text(line, 14, 20 + i * 12));
+    writeFileSync(pdfPath, Buffer.from(doc.output('arraybuffer')));
+    const { page, context, errors } = await openPage();
+    let certBody = null;
+    await page.route('**/api/udyam/certificate', async (route) => {
+      certBody = route.request().postDataJSON();
+      return route.fulfill(locked());
+    });
+    await page.click('#method-pdf');
+    await page.setInputFiles('#certificate-file', pdfPath);
+    const outcome = await Promise.race([
+      page.waitForSelector('.uv-read', { timeout: 120000 }).then(() => 'read'),
+      page.waitForSelector('#udyam-error', { timeout: 120000 }).then(async () => 'err: ' + (await page.textContent('#udyam-error'))),
+    ]);
+    assert(outcome === 'read', outcome);
+    const read = await page.textContent('.uv-read');
+    assert(read.includes('UDYAM-MH-26-0012345'), 'ocr number: ' + read);
+    assert(read.includes('SHREE GANESH ENGINEERING WORKS'), 'ocr name: ' + read);
+    await page.click('#certificate-continue');
+    await passOtp(page);
+    await page.click('#women-51');
+    await page.click(verifyBtn);
+    await page.waitForSelector('#udyam-preview');
+    assert(certBody?.record?.udyam_number === URN, 'certificate payload ' + JSON.stringify(certBody?.record));
+    assert(certBody.proof === 'proof-test', 'otp proof sent');
+    assert(certBody.women === true, 'ownership answer sent');
+    assert((await page.textContent('#udyam-preview')).includes('Read from your certificate'), 'certificate preview');
+    assert(await page.isVisible('.ud-lock__blur'), 'blurred report');
+    const beforePay = await page.textContent('body');
+    assert(!beforePay.includes('Shed No. 12'), 'address stays hidden until payment');
+    await completePayment(page);
+    assert((await page.getAttribute('#w-yes', 'aria-pressed')) === 'true', 'women ownership carried into the report');
+    const csp = await page.evaluate(() => window.__csp);
+    assert(csp.length === 0, 'CSP violations: ' + csp.join(', '));
+    assert(errors.length === 0, errors.join('\n'));
+    await context.close();
+  });
+
+  await test('a saved lead opens the report without Cashfree or payment', async () => {
+    const { page, context, calls } = await openPage();
+    await page.route('**/api/udyam/lead', (route) => route.fulfill(json(200, {
+      ok: true, cached: true, data: RECORD, women: true, source: 'udyam_number',
+    })));
+    assert((await page.textContent('#method-number')).includes('699'), 'number price');
+    assert((await page.textContent('#method-pdf')).includes('499'), 'certificate price');
+    await chooseNumber(page);
+    await page.fill(urnInput, URN);
+    await page.click('#udyam-continue');
+    await page.waitForSelector('#udyam-details');
+    assert(calls.length === 0, 'Cashfree verify was not called');
+    assert(!(await page.$('#udyam-preview')), 'payment preview stays hidden');
+    assert(!(await page.$('#otp-phone')), 'otp stays hidden');
+    assert((await page.textContent('#report .rname')).trim() === 'Shree Ganesh Engineering Works', 'saved report');
+    assert((await page.getAttribute('#w-yes', 'aria-pressed')) === 'true', 'saved ownership');
     await context.close();
   });
 

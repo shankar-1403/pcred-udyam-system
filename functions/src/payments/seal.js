@@ -7,12 +7,12 @@ function keyFrom(secret) {
     return createHash('sha256').update(`pcred-udyam-seal:${secret}`).digest();
 }
 
-/** Encrypts the full Udyam record so the browser can hold it without being able to read it. */
-export function sealRecord(record, secret, now = Date.now()) {
+/** Encrypts the full Udyam record so the browser can hold it without being able to read it. `amount` is the price this seal may be paid at. */
+export function sealRecord(record, secret, now = Date.now(), amount = null) {
     if (!secret)
         throw new Error('seal secret missing');
     const iv = randomBytes(12);
-    const payload = Buffer.from(JSON.stringify({ exp: now + TTL_MS, record }), 'utf8');
+    const payload = Buffer.from(JSON.stringify({ exp: now + TTL_MS, record, amount }), 'utf8');
     const cipher = createCipheriv('aes-256-gcm', keyFrom(secret), iv);
     const enc = Buffer.concat([cipher.update(payload), cipher.final()]);
     const tag = cipher.getAuthTag();
@@ -40,7 +40,8 @@ export function openRecord(sealed, secret, now = Date.now()) {
             return { ok: false, reason: 'invalid' };
         if (now > payload.exp)
             return { ok: false, reason: 'expired' };
-        return { ok: true, record: payload.record };
+        const amount = typeof payload.amount === 'number' ? payload.amount : null;
+        return { ok: true, record: payload.record, amount };
     }
     catch {
         return { ok: false, reason: 'invalid' };

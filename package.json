@@ -13,7 +13,7 @@
     "preview": "vite preview",
     "test": "vitest run --config functions/vitest.config.js",
     "test:e2e": "node tests/e2e/run-e2e.mjs",
-    "emulators": "npm run build && firebase emulators:start --only functions,hosting --project demo-pcred",
+    "emulators": "npm run build && firebase emulators:start --only functions,hosting,database --project demo-pcred",
     "deploy:functions": "firebase deploy --only functions",
     "deploy": "firebase deploy --only functions,hosting",
     "logs": "firebase functions:log --only udyamVerify",
@@ -31,9 +31,11 @@
     "@vitejs/plugin-react": "6.1.1",
     "firebase-tools": "15.32.1",
     "jspdf": "4.2.1",
+    "pdfjs-dist": "4.10.38",
     "playwright": "1.56.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
+    "tesseract.js": "7.0.0",
     "vite": "8.3.2",
     "vitest": "5.0.3"
   }

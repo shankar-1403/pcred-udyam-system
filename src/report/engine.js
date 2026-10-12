@@ -1120,7 +1120,9 @@ function syncFields() {
   }
   $('#nic-list').innerHTML = (p.nic || []).map((n) => `<li><code>${esc(n.code)}</code> ${esc(n.desc || '')}${n.act ? ` <span class="muted">(${esc(ACT_L[n.act] || n.act)})</span>` : ''}</li>`).join('');
   $('#details-sub').textContent = state.mode === 'verified'
-    ? 'From your Udyam record. Correct anything that looks wrong.'
+    ? (Object.values(state.src).includes('cert')
+      ? 'From your Udyam certificate. Correct anything that looks wrong.'
+      : 'From your Udyam record. Correct anything that looks wrong.')
     : 'These details appear after you verify a Udyam Registration Number.';
 }
 function syncQuestions() {
@@ -1256,14 +1258,18 @@ function profileFromUdyam(d) {
   set('orgType', orgTypeFrom(d.organization_type));
   return { profile: P, src };
 }
-function applyUdyam(d) {
+function applyUdyam(d, opts = {}) {
   const { profile, src } = profileFromUdyam(d);
+  if (opts.source === 'cert') {
+    for (const k of Object.keys(src)) src[k] = 'cert';
+  }
   const fromSample = state.mode !== 'verified';
   state.mode = 'verified';
   state.profile = profile;
   state.src = src;
   // Goals and credit need belong to the person using the page; ownership belongs to the business.
   state.answers = fromSample ? blankAnswers() : { ...state.answers, women: null };
+  if (opts.women === true || opts.women === false) state.answers.women = opts.women;
   if (fromSample) state.showAll = false;
   refresh();
   return profile;

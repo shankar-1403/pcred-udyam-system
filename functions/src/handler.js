@@ -5,9 +5,11 @@ import { udyamRateLimiter } from './server/rate-limit.js';
 import { allowedOriginList, clientIp, isAllowedOrigin } from './server/request.js';
 import { logEvent } from './server/log.js';
 import { publicPreview } from './payments/preview.js';
-import { REPORT_PRICE_INR } from './payments/price.js';
+import { UDYAM_NUMBER_PRICE_INR } from './payments/price.js';
 import { sealRecord } from './payments/seal.js';
-export const MAX_BODY_BYTES = 1024;
+import { readProof } from './intake/otp.js';
+import { cachedLeadResponse, rememberLead } from './leads/store.js';
+export const MAX_BODY_BYTES = 4096;
 // Identical numbers submitted at the same moment share one Cashfree call (each call is billed).
 const inflight = new Map();
 function corsHeaders(headers, allowed) {
@@ -54,6 +56,9 @@ export async function handleVerifyRequest(req, deps) {
         const check = checkUdyamNumber(input);
         if (!check.ok)
             return failure('INVALID_UDYAM', check.message, 400);
+        const cached = await cachedLeadResponse(deps.findLead, check.value, deps.now?.() ?? Date.now());
+        if (cached)
+            return reply(200, cached);
         const limit = (deps.limiter ?? udyamRateLimiter).check(clientIp(req.headers));
         if (!limit.allowed) {
             logEvent('warn', 'udyam_verify', { outcome: 'rate_limited_locally', udyam: maskUdyamNumber(check.value) });
@@ -68,17 +73,24 @@ export async function handleVerifyRequest(req, deps) {
         if (result.ok) {
             let sealed;
             try {
-                sealed = sealRecord(result.record, deps.loadSealSecret());
+                sealed = sealRecord(result.record, deps.loadSealSecret(), deps.now?.() ?? Date.now(), UDYAM_NUMBER_PRICE_INR);
             }
             catch (e) {
                 logEvent('error', 'udyam_verify', { outcome: 'error', reason: 'seal_failed', detail: e instanceof Error ? e.name : 'unknown' });
                 return failure('SERVICE_UNAVAILABLE', USER_MESSAGES.SERVICE_UNAVAILABLE, 503);
             }
+            const secret = deps.loadSealSecret();
+            const proof = readProof(typeof body.proof === 'string' ? body.proof : '', secret, deps.now?.() ?? Date.now());
+            await rememberLead(deps.saveLead, result.record, {
+                source: 'udyam_number',
+                phone: proof?.phone || '',
+                women: body.women,
+            });
             return reply(200, {
                 ok: true,
                 preview: publicPreview(result.record),
                 sealed,
-                price: { amount: REPORT_PRICE_INR, currency: 'INR' },
+                price: { amount: UDYAM_NUMBER_PRICE_INR, currency: 'INR' },
             });
         }
         return failure(result.code, result.message, result.httpStatus, {

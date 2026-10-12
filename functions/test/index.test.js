@@ -1,5 +1,25 @@
 import { afterAll, beforeAll, describe, expect, it, vi } from 'vitest';
 import { testKeyPair } from './helpers.js';
+
+vi.mock('firebase-admin/app', () => ({
+    getApps: () => [],
+    initializeApp: () => ({}),
+}));
+vi.mock('firebase-admin/database', () => ({
+    ServerValue: { TIMESTAMP: { '.sv': 'timestamp' } },
+    getDatabase: () => ({
+        ref() {
+            return {
+                push: async () => ({}),
+                orderByChild() { return this; },
+                equalTo() { return this; },
+                endAt() { return this; },
+                get: async () => ({ forEach() {} }),
+                update: async () => {},
+            };
+        },
+    }),
+}));
 // The deployed entry point: secrets → config, Express-style req/res → handler.
 const keys = testKeyPair();
 beforeAll(() => {
@@ -33,7 +53,7 @@ describe('udyamVerify (Cloud Function entry point)', () => {
         expect(endpoint.region).toEqual(['asia-south1']);
         expect(endpoint.httpsTrigger).toBeDefined();
         const secrets = endpoint.secretEnvironmentVariables.map((s) => s.key).sort();
-        expect(secrets).toEqual(['CASHFREE_CLIENT_ID', 'CASHFREE_CLIENT_SECRET', 'CASHFREE_PG_CLIENT_ID', 'CASHFREE_PG_CLIENT_SECRET', 'CASHFREE_PUBLIC_KEY']);
+        expect(secrets).toEqual(['CASHFREE_CLIENT_ID', 'CASHFREE_CLIENT_SECRET', 'CASHFREE_PG_CLIENT_ID', 'CASHFREE_PG_CLIENT_SECRET', 'CASHFREE_PUBLIC_KEY', 'FAST2SMS_API_KEY']);
     });
     it('calls Cashfree production with the secrets and returns the handler response', async () => {
         vi.spyOn(console, 'info').mockImplementation(() => { });

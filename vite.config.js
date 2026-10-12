@@ -22,6 +22,10 @@ export default defineConfig({
       '/api/udyam/verify': { ...emulatorProxy, rewrite: () => '' },
       '/api/udyam/checkout': { ...emulatorProxy, rewrite: () => '/checkout' },
       '/api/udyam/unlock': { ...emulatorProxy, rewrite: () => '/unlock' },
+      '/api/udyam/otp/send': { ...emulatorProxy, rewrite: () => '/otp/send' },
+      '/api/udyam/otp/verify': { ...emulatorProxy, rewrite: () => '/otp/verify' },
+      '/api/udyam/certificate': { ...emulatorProxy, rewrite: () => '/certificate' },
+      '/api/udyam/lead': { ...emulatorProxy, rewrite: () => '/lead' },
     },
   },
   build: {
